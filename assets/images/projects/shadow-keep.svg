@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#141a29" />
+      <stop offset="100%" stop-color="#0b0f19" />
+    </linearGradient>
+    <radialGradient id="torchGlow" cx="50%" cy="40%" r="45%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35" />
+      <stop offset="50%" stop-color="#b45309" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#090d16" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#skBg)"/>
+  <circle cx="400" cy="180" r="220" fill="url(#torchGlow)" />
+  
+  <!-- Stylized castle battlements / keep silhouette -->
+  <path d="M 220 340 L 220 220 L 250 220 L 250 240 L 280 240 L 280 220 L 310 220 L 310 240 L 340 240 L 340 200 L 370 200 L 370 220 L 400 220 L 400 170 L 430 170 L 430 200 L 460 200 L 460 240 L 490 240 L 490 220 L 520 220 L 520 240 L 550 240 L 550 220 L 580 220 L 580 340 Z" fill="#080c14" stroke="#334155" stroke-width="2" />
+  
+  <!-- Gate arch -->
+  <path d="M 370 340 L 370 260 C 370 240, 430 240, 430 260 L 430 340 Z" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5" />
+
+  <!-- Shield and Sword icon in center -->
+  <path d="M 400 120 L 430 145 L 420 185 C 415 205, 400 215, 400 215 C 400 215, 385 205, 380 185 L 370 145 Z" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+  <line x1="400" y1="130" x2="400" y2="195" stroke="#38bdf8" stroke-width="2" />
+
+  <!-- Title typography -->
+  <text x="400" y="375" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" letter-spacing="2" text-anchor="middle">THE SHADOW KEEP</text>
+  <text x="400" y="405" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">Unity • C# • Gameplay Mechanics • Game Design</text>
+</svg>

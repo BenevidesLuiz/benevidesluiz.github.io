@@ -1,1 +1,712 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Declaração de suporte a tema escuro/claro nativo conforme modernas diretrizes web -->
+  <meta name="color-scheme" content="light dark">
+  
+  <title>Luiz Benevides | Desenvolvedor de Software | Sistemas de Informação</title>
+  
+  <!-- SEO & Metadados -->
+  <meta name="description" content="Portfólio profissional de Luiz Benevides. Desenvolvedor de Software com preferência em Back-End e Engenharia de Software. Estudante de Sistemas de Informação (UFMS).">
+  <meta name="author" content="Luiz Benevides">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://benevidesluiz.github.io/">
 
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://benevidesluiz.github.io/">
+  <meta property="og:title" content="Luiz Benevides | Desenvolvedor de Software">
+  <meta property="og:description" content="Portfólio profissional de Luiz Benevides. Projetos práticos em Java, Unity, C#, bancos de dados e desenvolvimento de software.">
+  <meta property="og:image" content="assets/images/avatar-placeholder.svg">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:locale:alternate" content="en_US">
+
+  <!-- Favicon SVG Moderno -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Link acessível para navegação por teclado -->
+  <a href="#main-content" class="skip-link" data-i18n="skipLink">Pular para o conteúdo principal</a>
+
+  <!-- =========================================================================
+       Cabeçalho e Barra de Navegação (Navbar)
+       ========================================================================= -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#inicio" class="logo" aria-label="Luiz Benevides - Início">
+        <span class="logo-badge" aria-hidden="true">LB</span>
+        <span class="logo-text">Luiz <span>Benevides</span></span>
+      </a>
+
+      <!-- Menu Principal -->
+      <nav id="primary-navigation" class="nav-menu" aria-label="Navegação primária">
+        <a href="#inicio" class="nav-link active" data-i18n="navHome">Início</a>
+        <a href="#sobre" class="nav-link" data-i18n="navAbout">Sobre mim</a>
+        <a href="#habilidades" class="nav-link" data-i18n="navSkills">Habilidades</a>
+        <a href="#experiencia" class="nav-link" data-i18n="navExperience">Experiência</a>
+        <a href="#projetos" class="nav-link" data-i18n="navProjects">Projetos</a>
+        <a href="#formacao" class="nav-link" data-i18n="navEducation">Formação</a>
+        <a href="#contato" class="nav-link" data-i18n="navContact">Contato</a>
+      </nav>
+
+      <!-- Ações do Cabeçalho: Seletor de Idioma e Hamburguer Mobile -->
+      <div class="nav-actions">
+        <!-- Seletor de Idioma (PT / EN) -->
+        <div class="lang-switch" role="group" aria-label="Seleção de idioma">
+          <button type="button" class="lang-btn active" data-lang="pt" aria-pressed="true">PT</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+
+        <!-- Botão Hamburguer Mobile -->
+        <button type="button" class="mobile-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Abrir menu de navegação">
+          <span class="hamburger-icon" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       Conteúdo Principal
+       ========================================================================= -->
+  <main id="main-content">
+    
+    <!-- -----------------------------------------------------------------------
+         1. Seção Início (Hero)
+         ----------------------------------------------------------------------- -->
+    <section id="inicio" class="section hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content reveal-on-scroll">
+            <div class="hero-status">
+              <span class="status-dot" aria-hidden="true"></span>
+              <span data-i18n="heroStatus">Disponível para oportunidades de estágio e início de carreira</span>
+            </div>
+
+            <h1 class="hero-title">
+              <span data-i18n="heroGreeting">Olá, me chamo</span><br>
+              <span class="hero-title-highlight">Luiz Benevides</span>
+            </h1>
+
+            <p class="hero-role" data-i18n="heroRole">Desenvolvedor de Software | Estudante de Sistemas de Informação</p>
+
+            <p class="hero-bio" data-i18n="heroBio">
+              Estudante de Sistemas de Informação na UFMS com formação técnica em Informática pelo IFMS. Foco em desenvolvimento back-end, engenharia de software e resolução de problemas estruturados.
+            </p>
+
+            <!-- Metadados de Localização e Modalidade -->
+            <div class="hero-chips">
+              <span class="info-chip">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <span data-i18n="chipLocation">Corumbá, MS — Brasil</span>
+              </span>
+              <span class="info-chip">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                <span data-i18n="chipModality">Presencial &amp; Remoto</span>
+              </span>
+            </div>
+
+            <!-- Botões Principais de Ação -->
+            <div class="hero-actions">
+              <a href="#projetos" class="btn btn-primary" data-i18n="btnViewProjects">Ver Projetos</a>
+              <!-- Link preparado para receber o PDF do currículo em assets/docs/ -->
+              <a href="assets/docs/curriculo-luiz-benevides.pdf" download="Curriculo-Luiz-Benevides.pdf" class="btn btn-outline" id="download-cv-btn">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span data-i18n="btnDownloadCV">Baixar Currículo (PDF)</span>
+              </a>
+            </div>
+
+            <!-- Redes Sociais no Hero -->
+            <div class="hero-socials">
+              <a href="https://github.com/BenevidesLuiz" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Perfil do GitHub de Luiz Benevides (abre em nova aba)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/luiz-felipe-quevedo-benevides-a26a342bb/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Perfil do LinkedIn de Luiz Benevides (abre em nova aba)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </a>
+              <a href="#contato" class="social-link" aria-label="Ir para informações de contato">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card Visual / Avatar Placeholder -->
+          <div class="hero-visual reveal-on-scroll">
+            <div class="hero-card">
+              <div class="hero-avatar-frame">
+                <!-- Para trocar por sua foto real, coloque a imagem em assets/images/ e altere o src abaixo -->
+                <img src="assets/images/avatar-placeholder.svg" alt="Ilustração do perfil profissional de Luiz Benevides" class="hero-avatar-img" width="400" height="400" loading="eager">
+              </div>
+              <div class="hero-card-footer">
+                <p class="hero-card-name">Luiz Benevides</p>
+                <p class="hero-card-role" data-i18n="avatarCaption">Desenvolvedor de Software</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------
+         2. Seção Sobre Mim
+         ----------------------------------------------------------------------- -->
+    <section id="sobre" class="section section-alt">
+      <div class="container">
+        <header class="section-header reveal-on-scroll">
+          <span class="section-tag" data-i18n="aboutTag">Sobre mim</span>
+          <h2 class="section-title" data-i18n="aboutTitle">Trajetória e foco profissional</h2>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-text reveal-on-scroll">
+            <p data-i18n="aboutP1">
+              Sou estudante de Sistemas de Informação na Universidade Federal de Mato Grosso do Sul (UFMS), com formação técnica em Informática pelo Instituto Federal de Mato Grosso do Sul (IFMS).
+            </p>
+            <p data-i18n="aboutP2">
+              Tenho grande interesse em desenvolvimento de software, com ênfase na construção de aplicações, programação back-end e resolução de problemas técnicos e de arquitetura. Possuo experiência prática com Java através do desenvolvimento de sistema para a Clínica de Psicologia da UFMS.
+            </p>
+            <p data-i18n="aboutP3">
+              Também desenvolvo projetos pessoais e acadêmicos utilizando C#, Unity e outras tecnologias para jogos e aplicações interativas. Tenho perfil dedicado a pesquisar soluções eficientes, aprender novas ferramentas e aprimorar continuamente a qualidade do código produzido.
+            </p>
+          </div>
+
+          <div class="about-highlights reveal-on-scroll">
+            <article class="highlight-card">
+              <div class="highlight-header">
+                <div class="highlight-icon-wrap" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                </div>
+                <h3 class="highlight-title" data-i18n="pillar1Title">Engenharia &amp; Back-End</h3>
+              </div>
+              <p class="highlight-desc" data-i18n="pillar1Desc">
+                Foco na lógica de negócios, integridade de dados e arquitetura limpa de software.
+              </p>
+            </article>
+
+            <article class="highlight-card">
+              <div class="highlight-header">
+                <div class="highlight-icon-wrap" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                </div>
+                <h3 class="highlight-title" data-i18n="pillar2Title">Experiência Prática</h3>
+              </div>
+              <p class="highlight-desc" data-i18n="pillar2Desc">
+                Atuação em sistema desktop Java com refatoração, validações e controle de acesso.
+              </p>
+            </article>
+
+            <article class="highlight-card">
+              <div class="highlight-header">
+                <div class="highlight-icon-wrap" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="12" x="2" y="6" rx="6"></rect><line x1="6" y1="12" x2="10" y2="12"></line><line x1="8" y1="10" x2="8" y2="14"></line><line x1="15" y1="13" x2="15.01" y2="13"></line><line x1="18" y1="11" x2="18.01" y2="11"></line></svg>
+                </div>
+                <h3 class="highlight-title" data-i18n="pillar3Title">Jogos &amp; IA</h3>
+              </div>
+              <p class="highlight-desc" data-i18n="pillar3Desc">
+                Interesse e exploração contínua em mecânicas de gameplay, Unity, C# e Inteligência Artificial.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------
+         3. Seção Habilidades Técnicas (Apresentação honesta e limpa)
+         ----------------------------------------------------------------------- -->
+    <section id="habilidades" class="section">
+      <div class="container">
+        <header class="section-header reveal-on-scroll">
+          <span class="section-tag" data-i18n="skillsTag">Conhecimentos</span>
+          <h2 class="section-title" data-i18n="skillsTitle">Habilidades Técnicas</h2>
+          <p class="section-desc" data-i18n="skillsDesc">
+            Apresentação honesta das tecnologias com as quais possuo estudo e experiência prática, sem métricas arbitrárias.
+          </p>
+        </header>
+
+        <div class="skills-grid reveal-on-scroll">
+          <!-- Linguagens -->
+          <article class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="skill-category-title" data-i18n="skillsCatLanguages">Linguagens</h3>
+            </div>
+            <ul class="skill-badges">
+              <li class="skill-badge practical">Java</li>
+              <li class="skill-badge practical">C#</li>
+              <li class="skill-badge">JavaScript</li>
+              <li class="skill-badge">PHP</li>
+            </ul>
+          </article>
+
+          <!-- Bancos de Dados -->
+          <article class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              </div>
+              <h3 class="skill-category-title" data-i18n="skillsCatDatabases">Bancos de Dados</h3>
+            </div>
+            <ul class="skill-badges">
+              <li class="skill-badge practical">MySQL</li>
+              <li class="skill-badge practical">SQLite</li>
+            </ul>
+          </article>
+
+          <!-- Ferramentas & Versionamento -->
+          <article class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+              </div>
+              <h3 class="skill-category-title" data-i18n="skillsCatTools">Ferramentas &amp; Versionamento</h3>
+            </div>
+            <ul class="skill-badges">
+              <li class="skill-badge practical">Git</li>
+              <li class="skill-badge practical">GitHub</li>
+            </ul>
+          </article>
+
+          <!-- Desenvolvimento de Jogos -->
+          <article class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="12" x="2" y="6" rx="6"></rect><line x1="6" y1="12" x2="10" y2="12"></line><line x1="8" y1="10" x2="8" y2="14"></line><line x1="15" y1="13" x2="15.01" y2="13"></line><line x1="18" y1="11" x2="18.01" y2="11"></line></svg>
+              </div>
+              <h3 class="skill-category-title" data-i18n="skillsCatGameDev">Desenvolvimento de Jogos</h3>
+            </div>
+            <ul class="skill-badges">
+              <li class="skill-badge practical">Unity</li>
+              <li class="skill-badge">GameMaker</li>
+            </ul>
+          </article>
+
+          <!-- Tecnologias Adicionais -->
+          <article class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="skill-category-title" data-i18n="skillsCatAdditional">Tecnologias Adicionais</h3>
+            </div>
+            <ul class="skill-badges">
+              <li class="skill-badge">Laravel</li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="skills-note reveal-on-scroll" data-i18n="skillsNote">
+          • Tecnologias com experiência prática documentada ou projetos desenvolvidos.
+        </p>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------
+         4. Seção Experiência Profissional
+         ----------------------------------------------------------------------- -->
+    <section id="experiencia" class="section section-alt">
+      <div class="container">
+        <header class="section-header reveal-on-scroll">
+          <span class="section-tag" data-i18n="expTag">Trajetória</span>
+          <h2 class="section-title" data-i18n="expTitle">Experiência Profissional</h2>
+          <p class="section-desc" data-i18n="expDesc">
+            Atuação profissional em desenvolvimento e suporte com responsabilidades documentadas.
+          </p>
+        </header>
+
+        <div class="experience-list">
+          
+          <!-- Experiência 1: Clínica de Psicologia da UFMS -->
+          <article class="experience-card featured reveal-on-scroll">
+            <header class="exp-header">
+              <div>
+                <h3 class="exp-role-title" data-i18n="expPsicoTitle">Estagiário de Desenvolvimento de Software</h3>
+                <p class="exp-company" data-i18n="expPsicoCompany">Clínica de Psicologia da UFMS</p>
+              </div>
+              <div class="exp-meta">
+                <span class="exp-badge status-active">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                  <span data-i18n="expPsicoPeriod">Março de 2025 – Abril de 2026</span>
+                </span>
+                <span class="exp-badge" data-i18n="expPsicoBadge">Remoto • Corumbá, MS</span>
+              </div>
+            </header>
+
+            <p class="exp-desc" data-i18n="expPsicoDesc">
+              Atuação no desenvolvimento e manutenção contínua de uma aplicação desktop em Java, com relatório formal de atividades comprobatório.
+            </p>
+
+            <h4 class="exp-tasks-title" data-i18n="expPsicoTasksTitle">Principais Atividades Realizadas:</h4>
+            <ul class="exp-tasks-list">
+              <li class="exp-task-item" data-i18n="expPsicoTask1">Refatoração de componentes de tabelas na interface da aplicação.</li>
+              <li class="exp-task-item" data-i18n="expPsicoTask2">Implementação de validações de formulários com mensagens de erro claras para o usuário.</li>
+              <li class="exp-task-item" data-i18n="expPsicoTask3">Melhorias nos fluxos de edição e atualização de registros cadastrais.</li>
+              <li class="exp-task-item" data-i18n="expPsicoTask4">Implementação de exclusão lógica para preservação e integridade do histórico clínico.</li>
+              <li class="exp-task-item" data-i18n="expPsicoTask5">Desenvolvimento de busca de grupos com filtros vinculados dinamicamente ao usuário autenticado.</li>
+              <li class="exp-task-item" data-i18n="expPsicoTask6">Aprimoramentos em autenticação, controle de níveis de acesso e seleção de perfis.</li>
+            </ul>
+
+            <footer class="exp-footer-tags">
+              <span class="exp-tag">Java</span>
+              <span class="exp-tag">Desktop Application</span>
+              <span class="exp-tag">Banco de Dados</span>
+              <span class="exp-tag">Exclusão Lógica</span>
+              <span class="exp-tag">Controle de Acesso</span>
+            </footer>
+          </article>
+
+          <!-- Experiência 2: Embrapa NTI (Preparada para atualização de datas) -->
+          <article class="experience-card reveal-on-scroll">
+            <header class="exp-header">
+              <div>
+                <h3 class="exp-role-title" data-i18n="expEmbrapaTitle">Suporte Técnico e Helpdesk</h3>
+                <p class="exp-company" data-i18n="expEmbrapaCompany">Embrapa — Núcleo de Tecnologia da Informação (NTI)</p>
+              </div>
+              <div class="exp-meta">
+                <!-- Badge indicando que as datas aguardam confirmação oficial -->
+                <span class="exp-badge status-pending">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  <span data-i18n="expEmbrapaPeriod">Período a confirmar</span>
+                </span>
+                <span class="exp-badge" data-i18n="expEmbrapaBadge">Presencial • Corumbá, MS</span>
+              </div>
+            </header>
+
+            <p class="exp-desc" data-i18n="expEmbrapaDesc">
+              Atuação em suporte técnico e helpdesk, prestando apoio direto à equipe de TI. Realização de atividades relacionadas à manutenção de equipamentos de informática e infraestrutura de suporte elétrico (no-breaks / UPS).
+            </p>
+
+            <h4 class="exp-tasks-title" data-i18n="expEmbrapaTasksTitle">Atividades de Apoio:</h4>
+            <ul class="exp-tasks-list">
+              <li class="exp-task-item" data-i18n="expEmbrapaTask1">Atendimento de suporte e helpdesk a usuários e equipe técnica.</li>
+              <li class="exp-task-item" data-i18n="expEmbrapaTask2">Apoio na manutenção preventiva e corretiva de equipamentos de informática.</li>
+              <li class="exp-task-item" data-i18n="expEmbrapaTask3">Suporte na checagem e manutenção de sistemas de alimentação ininterrupta (no-breaks / UPS).</li>
+            </ul>
+
+            <footer class="exp-footer-tags">
+              <span class="exp-tag">Suporte Técnico</span>
+              <span class="exp-tag">Helpdesk</span>
+              <span class="exp-tag">Hardware &amp; Redes</span>
+              <span class="exp-tag">Sistemas UPS / No-break</span>
+            </footer>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------
+         5. Seção Projetos (Cartões Individuais)
+         ----------------------------------------------------------------------- -->
+    <section id="projetos" class="section">
+      <div class="container">
+        <header class="section-header reveal-on-scroll">
+          <span class="section-tag" data-i18n="projectsTag">Portfólio</span>
+          <h2 class="section-title" data-i18n="projectsTitle">Projetos em Destaque</h2>
+          <p class="section-desc" data-i18n="projectsDesc">
+            Projetos práticos, acadêmicos e pessoais desenvolvidos com diferentes tecnologias.
+          </p>
+        </header>
+
+        <div class="projects-grid">
+          
+          <!-- Projeto 1: Sistema de Gestão para Clínica de Psicologia -->
+          <article class="project-card reveal-on-scroll">
+            <div class="project-media-wrap">
+              <img src="assets/images/projects/clinica-psicologia.svg" alt="Preview da interface do Sistema de Gestão para Clínica de Psicologia" class="project-img" width="800" height="450" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title" data-i18n="projectPsicoTitle">Sistema de Gestão para Clínica de Psicologia</h3>
+              <p class="project-desc" data-i18n="projectPsicoDesc">
+                Aplicação desktop desenvolvida em Java para gerenciamento de informações clínicas. Inclui controle de registros, validações, autenticação, níveis de acesso e manutenção com exclusão lógica.
+              </p>
+              <div class="project-techs">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Banco de Dados</span>
+                <span class="tech-tag">Desktop</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/BenevidesLuiz" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="Acessar repositório do projeto Clínica de Psicologia no GitHub">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                  <span data-i18n="btnSourceCode">GitHub</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projeto 2: The Shadow Keep -->
+          <article class="project-card reveal-on-scroll">
+            <div class="project-media-wrap">
+              <img src="assets/images/projects/shadow-keep.svg" alt="Preview artístico e mecânicas de The Shadow Keep" class="project-img" width="800" height="450" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title" data-i18n="projectSkTitle">The Shadow Keep</h3>
+              <p class="project-desc" data-i18n="projectSkDesc">
+                Projeto de desenvolvimento de jogo em Unity e C#, envolvendo programação orientada a objetos, mecânicas de gameplay, combate e conceitos fundamentais de Game Design.
+              </p>
+              <div class="project-techs">
+                <span class="tech-tag">Unity</span>
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">Game Design</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/BenevidesLuiz" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="Acessar repositório do projeto The Shadow Keep no GitHub">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                  <span data-i18n="btnSourceCode">GitHub</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projeto 3: Not Alone -->
+          <article class="project-card reveal-on-scroll">
+            <div class="project-media-wrap">
+              <img src="assets/images/projects/not-alone.svg" alt="Preview atmosférico do jogo 3D Not Alone" class="project-img" width="800" height="450" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title" data-i18n="projectNaTitle">Not Alone</h3>
+              <p class="project-desc" data-i18n="projectNaDesc">
+                Projeto de desenvolvimento de jogo 3D em Unity e C#, focado em navegação espacial, iluminação, atmosfera e interação tridimensional.
+              </p>
+              <div class="project-techs">
+                <span class="tech-tag">Unity</span>
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">3D Game</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/BenevidesLuiz" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="Acessar repositório do projeto Not Alone no GitHub">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                  <span data-i18n="btnSourceCode">GitHub</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projeto 4: Patrick.exe -->
+          <article class="project-card reveal-on-scroll">
+            <div class="project-media-wrap">
+              <img src="assets/images/projects/patrick-exe.svg" alt="Preview retrô pixel do projeto patrick.exe" class="project-img" width="800" height="450" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title" data-i18n="projectPatTitle">patrick.exe</h3>
+              <p class="project-desc" data-i18n="projectPatDesc">
+                Projeto acadêmico de jogo 2D com desafios de lógica, resolução de problemas estruturados, controle de estados e física básica bidimensional.
+              </p>
+              <div class="project-techs">
+                <span class="tech-tag">2D Game</span>
+                <span class="tech-tag">Lógica &amp; Algoritmos</span>
+                <span class="tech-tag">Acadêmico</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/BenevidesLuiz" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="Acessar repositório de patrick.exe no GitHub">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                  <span data-i18n="btnSourceCode">GitHub</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projeto 5: Super-Arkanoid -->
+          <article class="project-card reveal-on-scroll">
+            <div class="project-media-wrap">
+              <img src="assets/images/projects/super-arkanoid.svg" alt="Preview arcade do jogo Super-Arkanoid" class="project-img" width="800" height="450" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title" data-i18n="projectArkTitle">Super-Arkanoid</h3>
+              <p class="project-desc" data-i18n="projectArkDesc">
+                Projeto de jogo inspirado no gênero clássico arcade, desenvolvido em GameMaker, trabalhando física de colisões, controle de pontuação e progressão de fases.
+              </p>
+              <div class="project-techs">
+                <span class="tech-tag">GameMaker</span>
+                <span class="tech-tag">Arcade</span>
+                <span class="tech-tag">Colisões 2D</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/BenevidesLuiz" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="Acessar repositório do Super-Arkanoid no GitHub">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                  <span data-i18n="btnSourceCode">GitHub</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------
+         6. Seção Formação Acadêmica
+         ----------------------------------------------------------------------- -->
+    <section id="formacao" class="section section-alt">
+      <div class="container">
+        <header class="section-header reveal-on-scroll">
+          <span class="section-tag" data-i18n="eduTag">Educação</span>
+          <h2 class="section-title" data-i18n="eduTitle">Formação Acadêmica</h2>
+          <p class="section-desc" data-i18n="eduDesc">
+            Bases sólidas em computação, algoritmos, desenvolvimento e sistemas.
+          </p>
+        </header>
+
+        <div class="education-grid reveal-on-scroll">
+          <!-- UFMS -->
+          <article class="education-card">
+            <div class="edu-icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            </div>
+            <div class="edu-content">
+              <h3 class="edu-degree" data-i18n="eduBsiTitle">Bacharelado em Sistemas de Informação</h3>
+              <p class="edu-institution" data-i18n="eduBsiInstitution">Universidade Federal de Mato Grosso do Sul (UFMS)</p>
+              <p class="edu-period">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                <span data-i18n="eduBsiPeriod">Previsão de conclusão: 2027</span>
+              </p>
+              <p class="edu-desc" data-i18n="eduBsiDesc">
+                Formação superior abrangendo engenharia de software, modelagem de bancos de dados relacionais, estrutura de dados, redes e arquitetura de sistemas.
+              </p>
+            </div>
+          </article>
+
+          <!-- IFMS -->
+          <article class="education-card">
+            <div class="edu-icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            </div>
+            <div class="edu-content">
+              <h3 class="edu-degree" data-i18n="eduTecTitle">Técnico em Informática</h3>
+              <p class="edu-institution" data-i18n="eduTecInstitution">Instituto Federal de Mato Grosso do Sul (IFMS)</p>
+              <p class="edu-period">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                <span data-i18n="eduTecPeriod">2021 – 2023</span>
+              </p>
+              <p class="edu-desc" data-i18n="eduTecDesc">
+                Formação técnica profissionalizante sólida com foco em lógica de programação, fundamentos de hardware, desenvolvimento web e suporte computacional.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------
+         7. Seção Contato
+         ----------------------------------------------------------------------- -->
+    <section id="contato" class="section">
+      <div class="container">
+        <div class="contact-card reveal-on-scroll">
+          <div class="contact-intro">
+            <span class="section-tag" data-i18n="contactTag">Comunicação</span>
+            <h2 class="contact-intro-title" data-i18n="contactTitle">Entre em Contato</h2>
+            <p class="contact-intro-desc" data-i18n="contactDesc">
+              Estou aberto a oportunidades de estágio e posições de entrada em desenvolvimento de software (remoto ou presencial).
+            </p>
+          </div>
+
+          <div class="contact-items-grid">
+            <!-- E-mail Profissional -->
+            <div class="contact-item">
+              <div class="contact-item-header">
+                <div class="contact-item-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                </div>
+                <span class="contact-item-label" data-i18n="contactEmailLabel">E-mail Profissional</span>
+              </div>
+              <!-- Espaço reservado para atualizar quando o e-mail formal estiver definido -->
+              <p class="contact-item-value" id="contact-email-text">luiz.benevides.dev@gmail.com</p>
+              <div class="contact-item-action">
+                <button type="button" class="btn btn-outline btn-sm" id="copy-email-btn" aria-label="Copiar endereço de e-mail para a área de transferência">
+                  <span data-i18n="btnCopy">Copiar</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- GitHub -->
+            <div class="contact-item">
+              <div class="contact-item-header">
+                <div class="contact-item-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                </div>
+                <span class="contact-item-label" data-i18n="contactGithubLabel">GitHub</span>
+              </div>
+              <p class="contact-item-value">BenevidesLuiz</p>
+              <div class="contact-item-action">
+                <a href="https://github.com/BenevidesLuiz" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" aria-label="Visitar perfil do GitHub (abre em nova aba)">
+                  <span>github.com/BenevidesLuiz</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="contact-item">
+              <div class="contact-item-header">
+                <div class="contact-item-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </div>
+                <span class="contact-item-label" data-i18n="contactLinkedinLabel">LinkedIn</span>
+              </div>
+              <p class="contact-item-value">Luiz Felipe Quevedo Benevides</p>
+              <div class="contact-item-action">
+                <a href="https://www.linkedin.com/in/luiz-felipe-quevedo-benevides-a26a342bb/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" aria-label="Visitar perfil do LinkedIn (abre em nova aba)">
+                  <span>linkedin.com/in/...</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Localização -->
+            <div class="contact-item">
+              <div class="contact-item-header">
+                <div class="contact-item-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <span class="contact-item-label" data-i18n="contactLocationLabel">Localização</span>
+              </div>
+              <p class="contact-item-value" data-i18n="contactLocationVal">Corumbá, Mato Grosso do Sul — Brasil</p>
+              <div class="contact-item-action">
+                <span class="info-chip">Disponível Remoto / Presencial</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="contact-footnote" data-i18n="contactFootnote">
+            Telefone e e-mail direto serão atualizados conforme abertura de processos seletivos.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       Rodapé (Footer)
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <p>© 2026 <strong>Luiz Benevides</strong>. Todos os direitos reservados.</p>
+        <p class="footer-tech-stack" data-i18n="footerTechStack">
+          Construído exclusivamente com HTML5, CSS3 e JavaScript Puro • Hospedado no GitHub Pages
+        </p>
+      </div>
+
+      <a href="#inicio" class="back-to-top" aria-label="Voltar ao início da página">
+        <span data-i18n="footerBackToTop">Voltar ao topo</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Script JavaScript Puro -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>
