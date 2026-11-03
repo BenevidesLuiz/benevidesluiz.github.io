@@ -1,18 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
   <defs>
     <linearGradient id="cpBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a1526" />
-      <stop offset="100%" stop-color="#0f213d" />
-    </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="100%" stop-color="#0284c7" />
+      <stop offset="0%" stop-color="#0e0f12" />
+      <stop offset="100%" stop-color="#181a1f" />
     </linearGradient>
   </defs>
   <rect width="800" height="450" fill="url(#cpBg)"/>
   
   <!-- Subtle grid pattern -->
-  <g stroke="#1e293b" stroke-width="1" opacity="0.3">
+  <g stroke="#26282f" stroke-width="1" opacity="0.3">
     <line x1="0" y1="90" x2="800" y2="90" />
     <line x1="0" y1="180" x2="800" y2="180" />
     <line x1="0" y1="270" x2="800" y2="270" />
@@ -24,50 +20,50 @@
   </g>
 
   <!-- Desktop Window Mockup -->
-  <rect x="120" y="55" width="560" height="340" rx="10" fill="#0b1329" stroke="#1e3a5f" stroke-width="2" />
-  <rect x="120" y="55" width="560" height="36" rx="10" fill="#13233f" />
-  <circle cx="145" cy="73" r="5" fill="#ef4444" opacity="0.8" />
-  <circle cx="162" cy="73" r="5" fill="#f59e0b" opacity="0.8" />
-  <circle cx="179" cy="73" r="5" fill="#10b981" opacity="0.8" />
-  <text x="400" y="78" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" text-anchor="middle">Sistema de Gestão • Clínica de Psicologia UFMS (Java)</text>
+  <rect x="120" y="55" width="560" height="340" rx="12" fill="#121316" stroke="#26282f" stroke-width="1.5" />
+  <rect x="120" y="55" width="560" height="38" rx="12" fill="#181a1e" />
+  <circle cx="145" cy="74" r="5" fill="#ef4444" opacity="0.7" />
+  <circle cx="162" cy="74" r="5" fill="#f59e0b" opacity="0.7" />
+  <circle cx="179" cy="74" r="5" fill="#10b981" opacity="0.7" />
+  <text x="400" y="79" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Sistema de Gestão • Clínica de Psicologia UFMS (Java)</text>
 
   <!-- Window Content: Sidebar & Table Mockup -->
-  <rect x="135" y="105" width="120" height="275" rx="6" fill="#0e1a32" />
-  <rect x="145" y="120" width="100" height="12" rx="3" fill="#1e3a5f" />
-  <rect x="145" y="145" width="80" height="10" rx="3" fill="#38bdf8" opacity="0.4" />
-  <rect x="145" y="165" width="90" height="10" rx="3" fill="#1e3a5f" opacity="0.6" />
-  <rect x="145" y="185" width="70" height="10" rx="3" fill="#1e3a5f" opacity="0.6" />
+  <rect x="135" y="105" width="120" height="275" rx="6" fill="#15171b" />
+  <rect x="145" y="120" width="100" height="12" rx="3" fill="#26282f" />
+  <rect x="145" y="145" width="80" height="10" rx="3" fill="#10b981" opacity="0.6" />
+  <rect x="145" y="165" width="90" height="10" rx="3" fill="#26282f" opacity="0.7" />
+  <rect x="145" y="185" width="70" height="10" rx="3" fill="#26282f" opacity="0.7" />
 
   <!-- Data Table Header & Rows -->
-  <rect x="270" y="105" width="395" height="30" rx="4" fill="#13233f" />
-  <rect x="285" y="115" width="60" height="10" rx="2" fill="#38bdf8" opacity="0.8" />
-  <rect x="370" y="115" width="80" height="10" rx="2" fill="#94a3b8" opacity="0.5" />
-  <rect x="475" y="115" width="70" height="10" rx="2" fill="#94a3b8" opacity="0.5" />
-  <rect x="580" y="115" width="50" height="10" rx="2" fill="#94a3b8" opacity="0.5" />
+  <rect x="270" y="105" width="395" height="30" rx="4" fill="#181a1e" />
+  <rect x="285" y="115" width="60" height="10" rx="2" fill="#10b981" opacity="0.8" />
+  <rect x="370" y="115" width="80" height="10" rx="2" fill="#a1a1aa" opacity="0.5" />
+  <rect x="475" y="115" width="70" height="10" rx="2" fill="#a1a1aa" opacity="0.5" />
+  <rect x="580" y="115" width="50" height="10" rx="2" fill="#a1a1aa" opacity="0.5" />
 
   <!-- Table Row 1 -->
-  <rect x="270" y="145" width="395" height="34" rx="4" fill="#0d182e" />
-  <rect x="285" y="157" width="50" height="10" rx="2" fill="#94a3b8" opacity="0.7" />
-  <rect x="370" y="157" width="70" height="10" rx="2" fill="#94a3b8" opacity="0.4" />
+  <rect x="270" y="145" width="395" height="34" rx="4" fill="#141519" />
+  <rect x="285" y="157" width="50" height="10" rx="2" fill="#a1a1aa" opacity="0.7" />
+  <rect x="370" y="157" width="70" height="10" rx="2" fill="#a1a1aa" opacity="0.4" />
   <rect x="475" y="157" width="60" height="10" rx="2" fill="#10b981" opacity="0.6" />
-  <rect x="580" y="157" width="40" height="10" rx="2" fill="#38bdf8" opacity="0.5" />
+  <rect x="580" y="157" width="40" height="10" rx="2" fill="#26282f" opacity="0.8" />
 
   <!-- Table Row 2 -->
-  <rect x="270" y="188" width="395" height="34" rx="4" fill="#0e1b34" />
-  <rect x="285" y="200" width="55" height="10" rx="2" fill="#94a3b8" opacity="0.7" />
-  <rect x="370" y="200" width="85" height="10" rx="2" fill="#94a3b8" opacity="0.4" />
+  <rect x="270" y="188" width="395" height="34" rx="4" fill="#16181d" />
+  <rect x="285" y="200" width="55" height="10" rx="2" fill="#a1a1aa" opacity="0.7" />
+  <rect x="370" y="200" width="85" height="10" rx="2" fill="#a1a1aa" opacity="0.4" />
   <rect x="475" y="200" width="50" height="10" rx="2" fill="#10b981" opacity="0.6" />
-  <rect x="580" y="200" width="40" height="10" rx="2" fill="#38bdf8" opacity="0.5" />
+  <rect x="580" y="200" width="40" height="10" rx="2" fill="#26282f" opacity="0.8" />
 
   <!-- Table Row 3 -->
-  <rect x="270" y="231" width="395" height="34" rx="4" fill="#0d182e" />
-  <rect x="285" y="243" width="60" height="10" rx="2" fill="#94a3b8" opacity="0.7" />
-  <rect x="370" y="243" width="65" height="10" rx="2" fill="#94a3b8" opacity="0.4" />
+  <rect x="270" y="231" width="395" height="34" rx="4" fill="#141519" />
+  <rect x="285" y="243" width="60" height="10" rx="2" fill="#a1a1aa" opacity="0.7" />
+  <rect x="370" y="243" width="65" height="10" rx="2" fill="#a1a1aa" opacity="0.4" />
   <rect x="475" y="243" width="55" height="10" rx="2" fill="#10b981" opacity="0.6" />
-  <rect x="580" y="243" width="40" height="10" rx="2" fill="#38bdf8" opacity="0.5" />
+  <rect x="580" y="243" width="40" height="10" rx="2" fill="#26282f" opacity="0.8" />
 
   <!-- Badge at bottom right -->
-  <rect x="270" y="280" width="395" height="85" rx="6" fill="#101e38" stroke="#1e3a5f" stroke-width="1" />
-  <text x="467" y="315" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Java Desktop • Validações • Exclusão Lógica • Autenticação</text>
-  <text x="467" y="340" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" text-anchor="middle">Aplicação prática desenvolvida para a Clínica de Psicologia da UFMS</text>
+  <rect x="270" y="280" width="395" height="85" rx="6" fill="#15171b" stroke="#26282f" stroke-width="1" />
+  <text x="467" y="315" fill="#f4f4f5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Java Desktop • Validações • Exclusão Lógica • Autenticação</text>
+  <text x="467" y="340" fill="#71717a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" text-anchor="middle">Aplicação prática desenvolvida para a Clínica de Psicologia da UFMS</text>
 </svg>

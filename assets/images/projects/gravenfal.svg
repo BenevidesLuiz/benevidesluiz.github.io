@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gfBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0e12" />
+      <stop offset="100%" stop-color="#161820" />
+    </linearGradient>
+    <radialGradient id="gfGlow" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#71717a" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#0c0e12" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#gfBg)"/>
+  <circle cx="400" cy="200" r="180" fill="url(#gfGlow)" />
+
+  <!-- Stylized Geometric Sword / Monolith -->
+  <g transform="translate(400, 180)">
+    <path d="M 0 -80 L 16 20 L 6 30 L 6 80 L -6 80 L -6 30 L -16 20 Z" fill="#27272a" stroke="#a1a1aa" stroke-width="2" />
+    <!-- Crossguard -->
+    <rect x="-35" y="25" width="70" height="8" rx="2" fill="#3f3f46" stroke="#f4f4f5" stroke-width="1.5" />
+    <!-- Pommel -->
+    <circle cx="0" cy="90" r="8" fill="#52525b" stroke="#f4f4f5" stroke-width="1.5" />
+    <!-- Blade center line -->
+    <line x1="0" y1="-75" x2="0" y2="25" stroke="#f4f4f5" stroke-width="1.5" opacity="0.8" />
+  </g>
+
+  <!-- Title & Tech -->
+  <text x="400" y="325" fill="#f4f4f5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="800" letter-spacing="3" text-anchor="middle">GRAVENFAL</text>
+  <text x="400" y="355" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">Unity • C# • Arquitetura &amp; Mecânicas de Jogo</text>
+  <text x="400" y="380" fill="#71717a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" text-anchor="middle">Desenvolvimento de jogos e lógica orientada a objetos</text>
+</svg>
