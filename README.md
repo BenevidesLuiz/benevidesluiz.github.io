@@ -82,7 +82,7 @@ Como o projeto é 100% estático (sem dependências ou build steps):
 
 ```bash
 git add .
-git commit -m "feat: curriculos profissionais ats em pt e en com uma pagina a4"
+git commit -m "sua mensagem"
 git push origin main
 ```
 
@@ -93,7 +93,7 @@ Após o push, o site estará acessível em:
 
 ## 📬 Contato
 
-- **E-mail**: [luizbenevidesvites@gmail.com](mailto:luizbenevidesvites@gmail.com)
+- **E-mail**: [luixbenevides@gmail.com](mailto:luixbenevides@gmail.com)
 - **GitHub**: [BenevidesLuiz](https://github.com/BenevidesLuiz)
 - **LinkedIn**: [Luiz Felipe Quevedo Benevides](https://www.linkedin.com/in/luiz-felipe-quevedo-benevides-a26a342bb/)
 - **Localidade**: Corumbá, Mato Grosso do Sul — Brasil (Remoto)
