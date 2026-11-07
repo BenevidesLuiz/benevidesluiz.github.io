@@ -197,6 +197,33 @@
         </header>
 
         <div class="skills-grid">
+          <!-- Estudando atualmente (atualizar conforme a especialização avança) -->
+          <article class="skill-category-card skill-category-learning">
+            <h3 class="skill-category-title" data-i18n="skillsCatLearning">Estudando Atualmente</h3>
+            <ul class="skill-badges">
+              <li class="skill-badge">
+                <img src="assets/icons/database.svg" alt="" class="skill-icon" aria-hidden="true">
+                <span>SQL</span>
+              </li>
+              <li class="skill-badge">
+                <img src="assets/icons/code.svg" alt="" class="skill-icon" aria-hidden="true">
+                <span data-i18n="skillAI">Inteligência Artificial</span>
+              </li>
+              <li class="skill-badge">
+                <img src="assets/icons/java.svg" alt="" class="skill-icon" aria-hidden="true">
+                <span>Java</span>
+              </li>
+              <li class="skill-badge">
+                <img src="assets/icons/javascript.svg" alt="" class="skill-icon" aria-hidden="true">
+                <span>JavaScript</span>
+              </li>
+              <li class="skill-badge">
+                <img src="assets/icons/gamepad.svg" alt="" class="skill-icon" aria-hidden="true">
+                <span>GDScript (Godot)</span>
+              </li>
+            </ul>
+          </article>
+
           <!-- Linguagens -->
           <article class="skill-category-card">
             <h3 class="skill-category-title" data-i18n="skillsCatLanguages">Linguagens</h3>
@@ -262,6 +289,10 @@
                 <img src="assets/icons/gamemaker.svg" alt="" class="skill-icon" aria-hidden="true">
                 <span>GameMaker</span>
               </li>
+              <li class="skill-badge">
+                <img src="assets/icons/gamepad.svg" alt="" class="skill-icon" aria-hidden="true">
+                <span>Godot</span>
+              </li>
             </ul>
           </article>
 
@@ -312,23 +343,24 @@
             </header>
 
             <p class="exp-desc" data-i18n="expPsicoDesc">
-              Atuação no desenvolvimento e manutenção de aplicação desktop em Java, com relatório formal de atividades comprobatório.
+              Desenvolvimento e manutenção da aplicação desktop em Java (Swing) usada na gestão da clínica-escola, com atividades registradas em relatório formal.
             </p>
 
-            <h4 class="exp-tasks-title" data-i18n="expPsicoTasksTitle">Principais Atividades Realizadas:</h4>
+            <h4 class="exp-tasks-title" data-i18n="expPsicoTasksTitle">Principais Entregas e Resultados:</h4>
             <ul class="exp-tasks-list">
-              <li class="exp-task-item" data-i18n="expPsicoTask1">Refatoração de componentes de tabelas na interface da aplicação.</li>
-              <li class="exp-task-item" data-i18n="expPsicoTask2">Implementação de validações de formulários com mensagens de erro claras para o usuário.</li>
-              <li class="exp-task-item" data-i18n="expPsicoTask3">Melhorias nos fluxos de edição e atualização de registros cadastrais.</li>
-              <li class="exp-task-item" data-i18n="expPsicoTask4">Implementação de exclusão lógica para preservação e integridade do histórico clínico.</li>
-              <li class="exp-task-item" data-i18n="expPsicoTask5">Desenvolvimento de busca de grupos com filtros vinculados dinamicamente ao usuário autenticado.</li>
-              <li class="exp-task-item" data-i18n="expPsicoTask6">Aprimoramentos em autenticação, controle de níveis de acesso e seleção de perfis.</li>
+              <li class="exp-task-item" data-i18n="expPsicoTask1">Restaurei as funções de adicionar, editar e excluir registros, que estavam inoperantes quando assumi o sistema; no fluxo de edição, identifiquei e corrigi o erro na instrução SQL que impedia a atualização dos dados.</li>
+              <li class="exp-task-item" data-i18n="expPsicoTask2">Corrigi um bug em que o botão de atualizar recriava os painéis Swing e desfazia o layout; criei uma classe reutilizável de botão personalizado que padronizou tamanho e estilo de todos os botões do sistema.</li>
+              <li class="exp-task-item" data-i18n="expPsicoTask3">Implementei o mascaramento de dados sensíveis por perfil: pesquisadores com restrição da LGPD passaram a ver as informações pessoais ocultas na interface.</li>
+              <li class="exp-task-item" data-i18n="expPsicoTask4">Melhorei a clareza para o usuário final, substituindo valores técnicos (true/false) por “Sim/Não” nas telas de status.</li>
+              <li class="exp-task-item" data-i18n="expPsicoTask5">Implementei exclusão lógica (soft delete) para preservar a integridade do histórico clínico.</li>
+              <li class="exp-task-item" data-i18n="expPsicoTask6">Desenvolvi busca de grupos com filtros vinculados ao usuário autenticado e aprimorei autenticação, níveis de acesso e seleção de perfis.</li>
             </ul>
 
             <footer class="exp-footer-tags">
               <span class="exp-tag">Java</span>
-              <span class="exp-tag">Desktop</span>
-              <span class="exp-tag">Banco de Dados</span>
+              <span class="exp-tag">Swing</span>
+              <span class="exp-tag">SQL</span>
+              <span class="exp-tag">LGPD</span>
               <span class="exp-tag">Exclusão Lógica</span>
               <span class="exp-tag">Controle de Acesso</span>
             </footer>
@@ -348,21 +380,22 @@
             </header>
 
             <p class="exp-desc" data-i18n="expEmbrapaDesc">
-              Atuação em suporte técnico e helpdesk, prestando apoio à equipe de TI. Atividades relacionadas à manutenção de equipamentos de informática e infraestrutura de suporte elétrico (no-breaks / UPS).
+              Apoio ao responsável pela equipe de TI em suporte a usuários, manutenção de equipamentos e infraestrutura.
             </p>
 
-            <h4 class="exp-tasks-title" data-i18n="expEmbrapaTasksTitle">Atividades de Apoio:</h4>
+            <h4 class="exp-tasks-title" data-i18n="expEmbrapaTasksTitle">Atividades e Resultados:</h4>
             <ul class="exp-tasks-list">
-              <li class="exp-task-item" data-i18n="expEmbrapaTask1">Atendimento de suporte e helpdesk a usuários e equipe técnica.</li>
-              <li class="exp-task-item" data-i18n="expEmbrapaTask2">Apoio na manutenção de equipamentos de informática.</li>
-              <li class="exp-task-item" data-i18n="expEmbrapaTask3">Suporte na manutenção e checagem de sistemas de alimentação ininterrupta (no-breaks / UPS).</li>
+              <li class="exp-task-item" data-i18n="expEmbrapaTask1">Ajudei a resolver uma falha causada por atualização do Windows que impedia o login de usuário local: a atualização foi revertida e as novas atualizações adiadas para evitar que o problema voltasse.</li>
+              <li class="exp-task-item" data-i18n="expEmbrapaTask2">Apoiei a manutenção de no-breaks (UPS) e de computadores da unidade.</li>
+              <li class="exp-task-item" data-i18n="expEmbrapaTask3">Acompanhei o processo de atualização do sistema operacional de um servidor.</li>
             </ul>
 
             <footer class="exp-footer-tags">
               <span class="exp-tag">Suporte Técnico</span>
               <span class="exp-tag">Helpdesk</span>
-              <span class="exp-tag">Hardware</span>
-              <span class="exp-tag">Sistemas UPS / No-break</span>
+              <span class="exp-tag">Windows</span>
+              <span class="exp-tag">Servidores</span>
+              <span class="exp-tag">No-break / UPS</span>
             </footer>
           </article>
 
@@ -554,6 +587,26 @@
             <p class="edu-desc" data-i18n="eduBsiDesc">
               Formação superior abrangendo engenharia de software, modelagem de bancos de dados relacionais, estrutura de dados, redes e arquitetura de sistemas.
             </p>
+
+            <h4 class="edu-subjects-title" data-i18n="eduSubjectsTitle">Disciplinas de destaque</h4>
+            <ul class="edu-subjects">
+              <li class="edu-subject">
+                <strong data-i18n="eduSubDbName">Banco de Dados</strong>
+                <span data-i18n="eduSubDbDesc">Modelagem e análise de bancos relacionais, consultas SQL com INNER JOIN, GROUP BY e HAVING, e critérios para criar índices avaliando custo e benefício.</span>
+              </li>
+              <li class="edu-subject">
+                <strong data-i18n="eduSubUmlName">Modelagem de Sistemas (UML)</strong>
+                <span data-i18n="eduSubUmlDesc">Fase de projeto do software: identificação de classes, classes abstratas, interfaces (contratos) e definição dos métodos antes da implementação.</span>
+              </li>
+              <li class="edu-subject">
+                <strong data-i18n="eduSubPooName">Linguagem de Programação Orientada a Objetos (LPOO)</strong>
+                <span data-i18n="eduSubPooDesc">Encapsulamento, herança, polimorfismo e abstração aplicados em Java, base usada depois no estágio e nos projetos pessoais.</span>
+              </li>
+              <li class="edu-subject">
+                <strong data-i18n="eduSubWebName">Programação Web</strong>
+                <span data-i18n="eduSubWebDesc">Consumo de APIs públicas, tratamento dos dados retornados e construção de uma aplicação web a partir deles (em andamento).</span>
+              </li>
+            </ul>
           </article>
 
           <article class="education-item">
@@ -567,6 +620,25 @@
             </p>
           </article>
         </div>
+
+        <!-- Cursos complementares (manter apenas os mais relevantes) -->
+        <h3 class="courses-heading" data-i18n="coursesTitle">Cursos Complementares</h3>
+        <ul class="courses-list">
+          <li class="course-item">
+            <div>
+              <p class="course-name" data-i18n="courseJavaName">Java — Programação Orientada a Objetos</p>
+              <p class="course-desc" data-i18n="courseJavaDesc">Feito em paralelo à disciplina de LPOO, consolidando os fundamentos de Java e orientação a objetos.</p>
+            </div>
+            <span class="course-provider">Udemy • Prof. Nelio Alves</span>
+          </li>
+          <li class="course-item">
+            <div>
+              <p class="course-name" data-i18n="course2dName">Desenvolvimento de Jogos 2D</p>
+              <p class="course-desc" data-i18n="course2dDesc">Base para os projetos de jogos desenvolvidos em Unity, GameMaker e Godot.</p>
+            </div>
+            <span class="course-provider">Udemy</span>
+          </li>
+        </ul>
       </div>
     </section>
 

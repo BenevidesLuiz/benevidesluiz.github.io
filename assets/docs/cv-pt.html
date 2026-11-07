@@ -173,9 +173,10 @@
       </div>
       <div class="item-company">Clínica de Psicologia da UFMS — Corumbá, MS (Remoto)</div>
       <ul class="bullet-list">
-        <li>Atuação no desenvolvimento e manutenção contínua de aplicação desktop em Java voltada à gestão clínica e controle de prontuários.</li>
-        <li>Refatoração de componentes visuais de tabelas e implementação de validações consistentes de formulários com mensagens claras de erro.</li>
-        <li>Implementação de exclusão lógica (soft delete) para preservação do histórico clínico, além de controle de permissões e filtros por usuário.</li>
+        <li>Restaurei as funções de adicionar, editar e excluir registros, inoperantes quando assumi o sistema, incluindo a correção da instrução SQL que impedia a edição.</li>
+        <li>Corrigi bug em que o botão de atualizar recriava os painéis Swing e desfazia o layout; criei classe reutilizável de botão que padronizou todos os botões do sistema.</li>
+        <li>Implementei mascaramento de dados sensíveis por perfil (pesquisadores com restrição LGPD) e exclusão lógica (soft delete) para preservar o histórico clínico.</li>
+        <li>Desenvolvi filtros de busca por usuário autenticado, melhorias de controle de acesso e troquei valores técnicos (true/false) por “Sim/Não” para o usuário final.</li>
       </ul>
     </div>
 
@@ -186,8 +187,8 @@
       </div>
       <div class="item-company">Embrapa — Núcleo de Tecnologia da Informação (NTI) — Corumbá, MS (Presencial)</div>
       <ul class="bullet-list">
-        <li>Atendimento de primeiro nível e helpdesk prestando suporte a usuários e apoio direto à equipe de TI.</li>
-        <li>Apoio na manutenção preventiva e corretiva de computadores e no acompanhamento de sistemas de alimentação ininterrupta (no-breaks / UPS).</li>
+        <li>Ajudei a resolver falha de atualização do Windows que impedia o login de usuário local (reversão da atualização e adiamento de novas).</li>
+        <li>Apoio na manutenção de no-breaks (UPS) e computadores; acompanhamento da atualização do sistema operacional de um servidor.</li>
       </ul>
     </div>
   </section>
@@ -201,6 +202,11 @@
         <span class="item-date">Previsão de conclusão: 2027</span>
       </div>
       <div class="item-company">Universidade Federal de Mato Grosso do Sul (UFMS) — Câmpus do Pantanal</div>
+      <ul class="bullet-list">
+        <li><strong>Banco de Dados:</strong> modelagem relacional, SQL (INNER JOIN, GROUP BY, HAVING) e criação de índices avaliando custo-benefício.</li>
+        <li><strong>Modelagem de Sistemas (UML) e LPOO:</strong> projeto de classes, classes abstratas e interfaces; orientação a objetos em Java.</li>
+        <li><strong>Programação Web:</strong> consumo de APIs públicas e construção de aplicação web com os dados obtidos.</li>
+      </ul>
     </div>
 
     <div class="item">
@@ -213,11 +219,19 @@
   </section>
 
   <section class="section">
+    <h2 class="section-title">Cursos Complementares</h2>
+    <ul class="bullet-list">
+      <li><strong>Java — Programação Orientada a Objetos</strong> — Udemy (Prof. Nelio Alves)</li>
+      <li><strong>Desenvolvimento de Jogos 2D</strong> — Udemy</li>
+    </ul>
+  </section>
+
+  <section class="section">
     <h2 class="section-title">Habilidades Técnicas</h2>
     <div class="skills-block">
       <div class="skill-row">
         <span class="skill-label">Linguagens:</span>
-        <span class="skill-values">Java, C#, JavaScript, PHP</span>
+        <span class="skill-values">Java, C#, JavaScript, PHP, GDScript</span>
       </div>
       <div class="skill-row">
         <span class="skill-label">Bancos de Dados:</span>
@@ -229,7 +243,11 @@
       </div>
       <div class="skill-row">
         <span class="skill-label">Engines &amp; Frameworks:</span>
-        <span class="skill-values">JavaFX, Swing, Unity, GameMaker, Laravel</span>
+        <span class="skill-values">JavaFX, Swing, Unity, Godot, GameMaker, Laravel</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Estudando atualmente:</span>
+        <span class="skill-values">SQL, Inteligência Artificial, Java, JavaScript, GDScript</span>
       </div>
     </div>
   </section>
@@ -245,16 +263,6 @@
       <ul class="bullet-list">
         <li>Desenvolvimento desktop de reprodutor de mídia com interface gráfica, suporte a .mp3/.mp4 e visualização dinâmica de capas.</li>
         <li>Integração externa com yt-dlp e ffmpeg para processamento e conversão de mídias via linha de comando. (Colaboração com Kaio Marques).</li>
-      </ul>
-    </div>
-
-    <div class="item">
-      <div class="item-header">
-        <span class="item-role">Sistema de Gestão para Clínica de Psicologia</span>
-        <span class="item-date">Java, Banco de Dados Relacional, Swing</span>
-      </div>
-      <ul class="bullet-list">
-        <li>Aplicação desktop institucional da UFMS para administração de prontuários clínicos, níveis de acesso e conformidade com a LGPD.</li>
       </ul>
     </div>
 

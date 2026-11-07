@@ -173,9 +173,10 @@
       </div>
       <div class="item-company">UFMS Psychology Clinic — Corumbá, MS, Brazil (Remote)</div>
       <ul class="bullet-list">
-        <li>Maintained and enhanced a Java desktop application used for psychological records and patient workflow management.</li>
-        <li>Refactored UI table components for improved data rendering and engineered robust input validations with clear error handling.</li>
-        <li>Implemented logical deletion (soft delete) to ensure clinical history auditability and configured role-based group search filters.</li>
+        <li>Restored the create, edit and delete features, which were broken when I joined, including fixing the faulty SQL statement that blocked record edits.</li>
+        <li>Fixed a bug where the refresh button rebuilt Swing panels and broke the layout; built a reusable button class that standardized every button in the system.</li>
+        <li>Implemented role-based masking of sensitive data (researchers under LGPD restrictions) and soft delete to preserve clinical history.</li>
+        <li>Built search filters tied to the authenticated user, improved access control and replaced technical values (true/false) with “Yes/No” for end users.</li>
       </ul>
     </div>
 
@@ -186,8 +187,8 @@
       </div>
       <div class="item-company">Embrapa — Information Technology Center (NTI) — Corumbá, MS, Brazil (On-site)</div>
       <ul class="bullet-list">
-        <li>Delivered Tier-1 helpdesk support to institutional staff and assisted the core IT infrastructure team.</li>
-        <li>Assisted in preventive and corrective computer maintenance, workstation diagnostics, and UPS power supply upkeep.</li>
+        <li>Helped fix a Windows update failure that blocked local user logins (rolled back the update and deferred further updates).</li>
+        <li>Supported UPS (no-break) and workstation maintenance; observed and assisted with a server operating system upgrade.</li>
       </ul>
     </div>
   </section>
@@ -201,6 +202,11 @@
         <span class="item-date">Expected Graduation: 2027</span>
       </div>
       <div class="item-company">Federal University of Mato Grosso do Sul (UFMS)</div>
+      <ul class="bullet-list">
+        <li><strong>Databases:</strong> relational modeling, SQL (INNER JOIN, GROUP BY, HAVING) and evaluating when an index is worth its cost.</li>
+        <li><strong>Systems Modeling (UML) &amp; OOP:</strong> designing classes, abstract classes and interfaces; object-oriented programming in Java.</li>
+        <li><strong>Web Programming:</strong> consuming public APIs and building a web application with the retrieved data.</li>
+      </ul>
     </div>
 
     <div class="item">
@@ -213,11 +219,19 @@
   </section>
 
   <section class="section">
+    <h2 class="section-title">Additional Courses</h2>
+    <ul class="bullet-list">
+      <li><strong>Java — Object-Oriented Programming</strong> — Udemy (Prof. Nelio Alves)</li>
+      <li><strong>2D Game Development</strong> — Udemy</li>
+    </ul>
+  </section>
+
+  <section class="section">
     <h2 class="section-title">Technical Skills</h2>
     <div class="skills-block">
       <div class="skill-row">
         <span class="skill-label">Languages:</span>
-        <span class="skill-values">Java, C#, JavaScript, PHP</span>
+        <span class="skill-values">Java, C#, JavaScript, PHP, GDScript</span>
       </div>
       <div class="skill-row">
         <span class="skill-label">Databases:</span>
@@ -229,7 +243,11 @@
       </div>
       <div class="skill-row">
         <span class="skill-label">Engines &amp; Frameworks:</span>
-        <span class="skill-values">JavaFX, Swing, Unity, GameMaker, Laravel</span>
+        <span class="skill-values">JavaFX, Swing, Unity, Godot, GameMaker, Laravel</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Currently Learning:</span>
+        <span class="skill-values">SQL, Artificial Intelligence, Java, JavaScript, GDScript</span>
       </div>
     </div>
   </section>
@@ -245,16 +263,6 @@
       <ul class="bullet-list">
         <li>Engineered a desktop multimedia player supporting .mp3/.mp4 playback, dynamic artwork rendering, and custom controls.</li>
         <li>Integrated external CLI utilities (yt-dlp and ffmpeg) for automated media download and conversion. (Collaborative project).</li>
-      </ul>
-    </div>
-
-    <div class="item">
-      <div class="item-header">
-        <span class="item-role">Psychology Clinic Management System</span>
-        <span class="item-date">Java, Relational Database, Swing</span>
-      </div>
-      <ul class="bullet-list">
-        <li>Institutional desktop system for medical records, access control levels, and Brazilian healthcare data privacy (LGPD) compliance.</li>
       </ul>
     </div>
 

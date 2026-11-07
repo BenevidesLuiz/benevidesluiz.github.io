@@ -935,6 +935,100 @@ ol {
   line-height: 1.55;
 }
 
+/* Disciplinas de destaque */
+.edu-subjects-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin: 1.1rem 0 0.6rem;
+}
+
+.edu-subjects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.75rem;
+}
+
+.edu-subject {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius-sm);
+  background-color: #181a1f;
+  border: 1px solid var(--border-subtle);
+  border-left: 2px solid var(--accent-tech);
+}
+
+.edu-subject strong {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.edu-subject span {
+  font-size: 0.835rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* Cursos complementares */
+.courses-heading {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 2rem 0 1rem;
+}
+
+.courses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.course-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  padding: 1rem 1.35rem;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  transition: border-color var(--transition-fast);
+}
+
+.course-item:hover {
+  border-color: var(--border-card);
+}
+
+.course-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.course-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 0.2rem;
+}
+
+.course-provider {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  white-space: nowrap;
+}
+
+/* Card "Estudando Atualmente" com destaque sutil */
+.skill-category-learning {
+  border-color: var(--accent-tech-border);
+}
+
 /* --------------------------------------------------------------------------
    12. Seção Contato (Clean, Integrada, Direta com Links Rápidos)
    -------------------------------------------------------------------------- */
