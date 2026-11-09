@@ -6,7 +6,7 @@
   <style>
     @page {
       size: A4 portrait;
-      margin: 12mm 15mm;
+      margin: 8mm 12mm;
     }
     *, *::before, *::after {
       box-sizing: border-box;
@@ -15,8 +15,8 @@
     }
     body {
       font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-      font-size: 9.5pt;
-      line-height: 1.35;
+      font-size: 8.9pt;
+      line-height: 1.28;
       color: #111827;
       background: #ffffff;
       -webkit-font-smoothing: antialiased;
@@ -25,11 +25,11 @@
     .header {
       text-align: center;
       border-bottom: 1.5pt solid #1f2937;
-      padding-bottom: 6px;
-      margin-bottom: 10px;
+      padding-bottom: 4px;
+      margin-bottom: 7px;
     }
     .name {
-      font-size: 19pt;
+      font-size: 18pt;
       font-weight: 700;
       letter-spacing: -0.01em;
       color: #111827;
@@ -37,19 +37,19 @@
       line-height: 1.1;
     }
     .headline {
-      font-size: 10.5pt;
+      font-size: 10pt;
       font-weight: 600;
       color: #374151;
-      margin-top: 3px;
+      margin-top: 2px;
     }
     .contact-line {
-      font-size: 8.8pt;
+      font-size: 8.5pt;
       color: #4b5563;
-      margin-top: 5px;
+      margin-top: 4px;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 8px;
+      gap: 7px;
     }
     .contact-line a {
       color: #111827;
@@ -61,27 +61,27 @@
     }
     /* Sections */
     .section {
-      margin-bottom: 9px;
+      margin-bottom: 7px;
     }
     .section-title {
-      font-size: 10pt;
+      font-size: 9.7pt;
       font-weight: 700;
       color: #111827;
       text-transform: uppercase;
       letter-spacing: 0.05em;
       border-bottom: 0.75pt solid #d1d5db;
       padding-bottom: 2px;
-      margin-bottom: 5px;
+      margin-bottom: 4px;
     }
     .summary-text {
-      font-size: 9pt;
+      font-size: 8.8pt;
       color: #374151;
-      line-height: 1.38;
+      line-height: 1.32;
       text-align: justify;
     }
     /* Items */
     .item {
-      margin-bottom: 6px;
+      margin-bottom: 5px;
     }
     .item:last-child {
       margin-bottom: 0;
@@ -90,45 +90,45 @@
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      font-size: 9.3pt;
+      font-size: 9pt;
     }
     .item-role {
       font-weight: 700;
       color: #111827;
     }
     .item-date {
-      font-size: 8.5pt;
+      font-size: 8.2pt;
       color: #4b5563;
       font-weight: 500;
       white-space: nowrap;
     }
     .item-company {
-      font-size: 8.8pt;
+      font-size: 8.5pt;
       color: #374151;
       font-weight: 600;
-      margin-bottom: 2px;
+      margin-bottom: 1.5px;
     }
     /* Bullet Lists */
     ul.bullet-list {
       padding-left: 14px;
-      margin-top: 2px;
+      margin-top: 1.5px;
     }
     ul.bullet-list li {
-      font-size: 8.8pt;
+      font-size: 8.6pt;
       color: #374151;
       margin-bottom: 1.5px;
-      line-height: 1.32;
+      line-height: 1.28;
     }
     /* Technical Skills */
     .skills-block {
       display: flex;
       flex-direction: column;
-      gap: 2.5px;
-      font-size: 8.8pt;
+      gap: 2px;
+      font-size: 8.5pt;
     }
     .skill-row {
       display: flex;
-      line-height: 1.3;
+      line-height: 1.26;
     }
     .skill-label {
       font-weight: 700;
@@ -215,14 +215,19 @@
         <span class="item-date">2021 – 2023</span>
       </div>
       <div class="item-company">Federal Institute of Mato Grosso do Sul (IFMS)</div>
+      <ul class="bullet-list">
+        <li><strong>Capstone Thesis:</strong> <em>Blockchain: An Exploratory Study on Crypto Asset Digital Wallets</em> — comparative research on architecture, security, cryptography (SECP256K1, SHA-256) and BIP-32/38/39 standards in wallets.</li>
+      </ul>
     </div>
   </section>
 
   <section class="section">
-    <h2 class="section-title">Additional Courses</h2>
+    <h2 class="section-title">Additional Courses &amp; Languages</h2>
     <ul class="bullet-list">
-      <li><strong>Java — Object-Oriented Programming</strong> — Udemy (Prof. Nelio Alves)</li>
-      <li><strong>2D Game Development</strong> — Udemy</li>
+      <li><strong>English:</strong> Golden 1 Level (Upper-Intermediate / B2) — CNA Language School</li>
+      <li><strong>Java OOP &amp; Java Swing Desktop:</strong> Udemy (Prof. Nelio Alves) &amp; YouTube</li>
+      <li><strong>Blockchain Engineer Certification:</strong> Udemy (theoretical foundation for IFMS thesis)</li>
+      <li><strong>2D Game Development (GameMaker/GDevelop) &amp; Python:</strong> Udemy</li>
     </ul>
   </section>
 
@@ -231,7 +236,7 @@
     <div class="skills-block">
       <div class="skill-row">
         <span class="skill-label">Languages:</span>
-        <span class="skill-values">Java, C#, JavaScript, PHP, GDScript</span>
+        <span class="skill-values">Java, C#, JavaScript, Python, PHP, GDScript</span>
       </div>
       <div class="skill-row">
         <span class="skill-label">Databases:</span>
@@ -247,7 +252,7 @@
       </div>
       <div class="skill-row">
         <span class="skill-label">Currently Learning:</span>
-        <span class="skill-values">SQL, Artificial Intelligence, Java, JavaScript, GDScript</span>
+        <span class="skill-values">SQL, Artificial Intelligence, Java, JavaScript, Python, GDScript</span>
       </div>
     </div>
   </section>

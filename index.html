@@ -218,6 +218,10 @@
                 <span>JavaScript</span>
               </li>
               <li class="skill-badge">
+                <img src="assets/icons/code.svg" alt="" class="skill-icon" aria-hidden="true">
+                <span>Python</span>
+              </li>
+              <li class="skill-badge">
                 <img src="assets/icons/gamepad.svg" alt="" class="skill-icon" aria-hidden="true">
                 <span>GDScript (Godot)</span>
               </li>
@@ -239,6 +243,10 @@
               <li class="skill-badge">
                 <img src="assets/icons/javascript.svg" alt="" class="skill-icon" aria-hidden="true">
                 <span>JavaScript</span>
+              </li>
+              <li class="skill-badge">
+                <img src="assets/icons/code.svg" alt="" class="skill-icon" aria-hidden="true">
+                <span>Python</span>
               </li>
               <li class="skill-badge">
                 <img src="assets/icons/php.svg" alt="" class="skill-icon" aria-hidden="true">
@@ -618,23 +626,81 @@
             <p class="edu-desc" data-i18n="eduTecDesc">
               Formação técnica profissionalizante com foco em lógica de programação, fundamentos de hardware, desenvolvimento web e suporte computacional.
             </p>
+
+            <!-- TCC em Destaque no IFMS -->
+            <div class="tcc-highlight-card">
+              <div class="tcc-header">
+                <span class="tcc-badge" data-i18n="tccBadge">Trabalho de Conclusão de Curso (TCC)</span>
+                <span class="tcc-year">2023</span>
+              </div>
+              <h4 class="tcc-title" data-i18n="tccTitle">Blockchain: Um Estudo Exploratório sobre Carteiras Digitais de Cripto Ativos</h4>
+              <p class="tcc-meta" data-i18n="tccMeta">Autores: Luiz Felipe Quevedo Benevides e Pedro Mirra Fernandes • Orientador: Prof. Esp. Lucas Alves dos Santos</p>
+              <p class="tcc-desc" data-i18n="tccDesc">
+                Pesquisa exploratória e comparativa sobre a mecânica de carteiras digitais no ecossistema Bitcoin e blockchain. Abrange criptografia assimétrica de curva elíptica (SECP256K1), funções hash (SHA-256 e RIPEMD160), entropia na geração de seeds mnemônicas (BIP-39), carteiras hierárquico-determinísticas (BIP-32), proteção com senha (BIP-38) e análise comparativa de segurança, usabilidade e custo entre Hard Wallets, Paper Wallets, Desktop/Mobile e Web Wallets.
+              </p>
+              <div class="tcc-actions">
+                <a href="assets/docs/tcc-blockchain-carteiras-digitais.pdf" target="_blank" rel="noopener noreferrer" class="tcc-btn" aria-label="Abrir e ler o TCC completo em PDF">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                  <span data-i18n="tccBtnText">Ler TCC Completo (PDF)</span>
+                </a>
+              </div>
+            </div>
           </article>
         </div>
 
-        <!-- Cursos complementares (manter apenas os mais relevantes) -->
-        <h3 class="courses-heading" data-i18n="coursesTitle">Cursos Complementares</h3>
+        <!-- Cursos complementares e Idiomas -->
+        <h3 class="courses-heading" data-i18n="coursesTitle">Cursos Complementares &amp; Idiomas</h3>
         <ul class="courses-list">
+          <!-- Inglês CNA -->
           <li class="course-item">
             <div>
-              <p class="course-name" data-i18n="courseJavaName">Java — Programação Orientada a Objetos</p>
-              <p class="course-desc" data-i18n="courseJavaDesc">Feito em paralelo à disciplina de LPOO, consolidando os fundamentos de Java e orientação a objetos.</p>
+              <p class="course-name" data-i18n="courseEnglishName">Inglês — CNA (Nível Golden 1)</p>
+              <p class="course-desc" data-i18n="courseEnglishDesc">Formação em idioma inglês na escola CNA, atualmente no nível Golden 1 (Intermediário-Avançado / B2), focado em conversação, escrita e leitura técnica.</p>
+            </div>
+            <span class="course-provider">CNA Idiomas</span>
+          </li>
+
+          <!-- Java Completo POO Nelio Alves -->
+          <li class="course-item">
+            <div>
+              <p class="course-name" data-i18n="courseJavaName">Java COMPLETO — Programação Orientada a Objetos</p>
+              <p class="course-desc" data-i18n="courseJavaDesc">Aprofundamento em fundamentos de Java, encapsulamento, herança, polimorfismo, interfaces e tratamento de exceções, cursado em paralelo com a disciplina de LPOO na faculdade.</p>
             </div>
             <span class="course-provider">Udemy • Prof. Nelio Alves</span>
           </li>
+
+          <!-- Java Swing Desktop -->
           <li class="course-item">
             <div>
-              <p class="course-name" data-i18n="course2dName">Desenvolvimento de Jogos 2D</p>
-              <p class="course-desc" data-i18n="course2dDesc">Base para os projetos de jogos desenvolvidos em Unity, GameMaker e Godot.</p>
+              <p class="course-name" data-i18n="courseSwingName">Java Swing — Desenvolvimento de Aplicações Desktop</p>
+              <p class="course-desc" data-i18n="courseSwingDesc">Estudo e prática de componentes gráficos, personalização de botões e tabelas, layouts dinâmicos e controle de eventos em interfaces desktop (aplicado no sistema da Clínica da UFMS e no MusicPlayer).</p>
+            </div>
+            <span class="course-provider">YouTube / Desenvolvimento Prático</span>
+          </li>
+
+          <!-- Formação Blockchain -->
+          <li class="course-item">
+            <div>
+              <p class="course-name" data-i18n="courseBlockchainName">Formação Engenheiro de Blockchain</p>
+              <p class="course-desc" data-i18n="courseBlockchainDesc">Estudo técnico sobre redes descentralizadas, transações, contratos inteligentes e arquitetura de carteiras criptográficas, cursado como embasamento para a pesquisa do TCC no IFMS.</p>
+            </div>
+            <span class="course-provider">Udemy</span>
+          </li>
+
+          <!-- Jogos 2D GameMaker & GDevelop -->
+          <li class="course-item">
+            <div>
+              <p class="course-name" data-i18n="course2dName">Desenvolvimento de Jogos 2D com GameMaker e GDevelop</p>
+              <p class="course-desc" data-i18n="course2dDesc">Fundamentos de lógica de jogos 2D, colisões, física, máquinas de estados e progressão de fases (base prática para projetos como o Super-Arkanoid).</p>
+            </div>
+            <span class="course-provider">Udemy</span>
+          </li>
+
+          <!-- Python do Básico ao Avançado -->
+          <li class="course-item">
+            <div>
+              <p class="course-name" data-i18n="coursePythonName">Python do Básico ao Avançado</p>
+              <p class="course-desc" data-i18n="coursePythonDesc">Estudo de lógica de programação, sintaxe moderna, funções e estruturas de dados em Python, base complementar para scripting e GDScript.</p>
             </div>
             <span class="course-provider">Udemy</span>
           </li>
