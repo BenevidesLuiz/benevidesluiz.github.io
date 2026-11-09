@@ -2,156 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Resume - Luiz Benevides</title>
-  <style>
-    @page {
-      size: A4 portrait;
-      margin: 9mm 12mm;
-    }
-    *, *::before, *::after {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-      font-size: 8.85pt;
-      line-height: 1.3;
-      color: #111827;
-      background: #ffffff;
-      -webkit-font-smoothing: antialiased;
-    }
-    /* Contact Header - ATS Friendly */
-    .header {
-      text-align: center;
-      border-bottom: 1.5pt solid #1f2937;
-      padding-bottom: 5px;
-      margin-bottom: 8px;
-    }
-    .name {
-      font-size: 18pt;
-      font-weight: 700;
-      letter-spacing: -0.01em;
-      color: #111827;
-      text-transform: uppercase;
-      line-height: 1.1;
-    }
-    .headline {
-      font-size: 9.8pt;
-      font-weight: 600;
-      color: #374151;
-      margin-top: 2px;
-    }
-    .contact-line {
-      font-size: 8.4pt;
-      color: #4b5563;
-      margin-top: 4px;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 7px;
-    }
-    .contact-line a {
-      color: #111827;
-      text-decoration: none;
-      font-weight: 500;
-    }
-    .separator {
-      color: #9ca3af;
-    }
-    /* Sections */
-    .section {
-      margin-bottom: 7.5px;
-    }
-    .section:last-child {
-      margin-bottom: 0;
-    }
-    .section-title {
-      font-size: 9.5pt;
-      font-weight: 700;
-      color: #111827;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      border-bottom: 0.75pt solid #d1d5db;
-      padding-bottom: 2px;
-      margin-bottom: 4.5px;
-    }
-    .summary-text {
-      font-size: 8.75pt;
-      color: #374151;
-      line-height: 1.34;
-      text-align: justify;
-    }
-    /* Items */
-    .item {
-      margin-bottom: 5.5px;
-    }
-    .item:last-child {
-      margin-bottom: 0;
-    }
-    .item-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      font-size: 8.95pt;
-    }
-    .item-role {
-      font-weight: 700;
-      color: #111827;
-    }
-    .item-role a {
-      color: #111827;
-      text-decoration: none;
-    }
-    .item-date {
-      font-size: 8.15pt;
-      color: #4b5563;
-      font-weight: 500;
-      white-space: nowrap;
-    }
-    .item-company {
-      font-size: 8.45pt;
-      color: #374151;
-      font-weight: 600;
-      margin-bottom: 1.5px;
-    }
-    /* Bullet Lists */
-    ul.bullet-list {
-      padding-left: 14px;
-      margin-top: 1.5px;
-    }
-    ul.bullet-list li {
-      font-size: 8.55pt;
-      color: #374151;
-      margin-bottom: 1.5px;
-      line-height: 1.29;
-    }
-    /* Technical Skills */
-    .skills-block {
-      display: flex;
-      flex-direction: column;
-      gap: 2.5px;
-      font-size: 8.55pt;
-    }
-    .skill-row {
-      display: flex;
-      line-height: 1.28;
-    }
-    .skill-label {
-      font-weight: 700;
-      color: #111827;
-      min-width: 195px;
-    }
-    .skill-values {
-      color: #374151;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume — Luiz Benevides</title>
+  <link rel="stylesheet" href="cv-style.css">
 </head>
 <body>
 
   <header class="header">
     <h1 class="name">Luiz Benevides</h1>
-    <div class="headline">Junior Software Developer | Java &amp; Back-End | B.S. in Information Systems Student</div>
+    <div class="headline">Junior Software Developer | Java &amp; Back-End | Information Systems</div>
     <div class="contact-line">
       <span>Corumbá, MS — Brazil (Available for Remote)</span>
       <span class="separator">•</span>
@@ -168,7 +27,7 @@
   <section class="section">
     <h2 class="section-title">Professional Summary</h2>
     <p class="summary-text">
-      Information Systems undergraduate (UFMS) and IT Technician (IFMS) with 1 year of hands-on experience developing and maintaining a Java desktop management system (Swing and JDBC) integrated with a relational database. Experienced in debugging SQL queries, implementing CRUD operations, role-based access control, LGPD data masking, and OOP component standardization, complemented by software projects in Java and REST APIs with Node.js and SQLite.
+      Information Systems undergraduate (UFMS) and IT Technician (IFMS) with 1 year of hands-on experience developing and maintaining a Java desktop application (Swing and JDBC) integrated with a relational database. Focused on SQL query debugging, CRUD implementation, role-based access control, LGPD data protection, and object-oriented programming.
     </p>
   </section>
 
@@ -176,19 +35,19 @@
     <h2 class="section-title">Technical Skills</h2>
     <div class="skills-block">
       <div class="skill-row">
-        <span class="skill-label">Programming Languages:</span>
+        <span class="skill-label">Languages:</span>
         <span class="skill-values">Java, JavaScript, C#, Python</span>
       </div>
       <div class="skill-row">
-        <span class="skill-label">Databases &amp; Data Access:</span>
-        <span class="skill-values">SQL (MySQL, MariaDB, SQLite), JDBC (PreparedStatement), Relational Modeling</span>
+        <span class="skill-label">Databases:</span>
+        <span class="skill-values">SQL, MySQL, MariaDB, SQLite, JDBC (PreparedStatement), Relational Modeling</span>
       </div>
       <div class="skill-row">
-        <span class="skill-label">Frameworks, Libraries &amp; Testing:</span>
+        <span class="skill-label">Frameworks &amp; Testing:</span>
         <span class="skill-values">Java Swing, JavaFX, Node.js, Express, Jest, Supertest</span>
       </div>
       <div class="skill-row">
-        <span class="skill-label">Software Engineering &amp; Tools:</span>
+        <span class="skill-label">Engineering &amp; Tools:</span>
         <span class="skill-values">Object-Oriented Programming (OOP), DAO &amp; MVC Patterns, UML, Git, GitHub</span>
       </div>
     </div>
@@ -204,10 +63,10 @@
       </div>
       <div class="item-company">UFMS Psychology Clinic — Corumbá, MS, Brazil (Remote)</div>
       <ul class="bullet-list">
-        <li>Restored broken create, update, and delete (CRUD) operations in the clinic's Java (Swing/SQL) desktop application, tracing and fixing the faulty SQL update statement that blocked record persistence.</li>
-        <li>Implemented logical deletion (<em>soft delete</em>) to preserve clinical record history and role-based masking of sensitive patient data in the UI for researchers under LGPD privacy restrictions.</li>
-        <li>Built search filters scoped to the authenticated user, refined role-based permission checks, and replaced raw boolean flags (<code>true/false</code>) with clear status labels (“Yes/No”) across tables.</li>
-        <li>Fixed a UI refresh bug that recreated Swing panels with broken dimensions and engineered a reusable custom button class to standardize styling and dimensions across the system.</li>
+        <li>Restored broken create, update, and delete (CRUD) operations in the clinic's Java (Swing and SQL) desktop system by identifying and fixing the SQL update query that blocked record persistence.</li>
+        <li>Implemented logical deletion (<em>soft delete</em>) to preserve clinical history and role-based masking of sensitive patient data to comply with LGPD privacy regulations.</li>
+        <li>Built search filters scoped to the authenticated user, refined role permissions, and replaced raw boolean flags (<em>true/false</em>) with clear status labels (“Yes/No”) across tables.</li>
+        <li>Fixed a Swing panel layout reset bug on screen refresh and engineered a reusable button class to standardize component dimensions and styling across the interface.</li>
       </ul>
     </div>
 
@@ -218,7 +77,7 @@
       </div>
       <div class="item-company">Embrapa Pantanal — Information Technology Center (NTI) — Corumbá, MS, Brazil (On-site)</div>
       <ul class="bullet-list">
-        <li>Diagnosed and rolled back a faulty Windows update that blocked local user authentication on workstations, performed workstation and UPS (no-break) maintenance, and assisted with a server OS upgrade.</li>
+        <li>Diagnosed and rolled back a Windows update that blocked local user authentication, maintained workstations and UPS units, and assisted with a server operating system upgrade.</li>
       </ul>
     </div>
   </section>
@@ -228,33 +87,42 @@
 
     <div class="item">
       <div class="item-header">
-        <span class="item-role"><a href="https://github.com/BenevidesLuiz/AgeCon">AgeCon — Contact Management System (github.com/BenevidesLuiz/AgeCon)</a></span>
-        <span class="item-date">Java, Swing, JDBC, MySQL / MariaDB</span>
+        <span class="item-role">
+          <a href="https://github.com/BenevidesLuiz/AgeCon">AgeCon — Contact Management System</a>
+          <a href="https://github.com/BenevidesLuiz/AgeCon" class="item-link">(github.com/BenevidesLuiz/AgeCon)</a>
+        </span>
+        <span class="item-tech">Java, Swing, JDBC, MySQL / MariaDB</span>
       </div>
       <ul class="bullet-list">
-        <li>Desktop application architected into <code>model</code>, <code>dao</code>, <code>controller</code>, and <code>view</code> layers, using Java interfaces (<code>InterfaceDao</code>, <code>InterfaceControle</code>) to enforce persistence and controller contracts.</li>
-        <li>Implemented full CRUD and parameterized search (<code>LIKE</code>) via JDBC <code>PreparedStatement</code> over a normalized relational schema (<code>contact</code>, <code>city</code>, <code>district</code>, <code>contact_type</code>) with foreign-key constraints and input validation.</li>
+        <li>Desktop application structured into <em>model</em>, <em>dao</em>, <em>controller</em>, and <em>view</em> layers, using Java interfaces to enforce persistence and business logic contracts.</li>
+        <li>Implemented full CRUD and parameterized search via JDBC (<em>PreparedStatement</em>) over a normalized relational schema with foreign-key constraints and input validation.</li>
       </ul>
     </div>
 
     <div class="item">
       <div class="item-header">
-        <span class="item-role"><a href="https://github.com/BenevidesLuiz/atividadesweb">Movie Catalog REST API (github.com/BenevidesLuiz/atividadesweb)</a></span>
-        <span class="item-date">JavaScript, Node.js, Express, SQLite, Jest</span>
+        <span class="item-role">
+          <a href="https://github.com/BenevidesLuiz/atividadesweb">Movie Catalog REST API</a>
+          <a href="https://github.com/BenevidesLuiz/atividadesweb" class="item-link">(github.com/BenevidesLuiz/atividadesweb)</a>
+        </span>
+        <span class="item-tech">JavaScript, Node.js, Express, SQLite, Jest</span>
       </div>
       <ul class="bullet-list">
-        <li>Layered back-end API (<code>routes</code>, <code>controllers</code>, <code>services</code>, <code>repositories</code>, and <code>models</code>) with parameterized SQLite persistence (<code>better-sqlite3</code>), payload validation, and HTTP error handling (400/404).</li>
-        <li>Implemented session-based authentication (<code>express-session</code>), route-protection middleware, and automated unit and integration tests using <code>Jest</code> and <code>Supertest</code>.</li>
+        <li>Layered back-end API (<em>routes</em>, <em>controllers</em>, <em>services</em>, <em>repositories</em>, and <em>models</em>) with relational SQLite persistence, payload validation, and HTTP error handling.</li>
+        <li>Session-based authentication (<em>express-session</em>), route-protection middleware, and automated unit and integration tests using Jest and Supertest.</li>
       </ul>
     </div>
 
     <div class="item">
       <div class="item-header">
-        <span class="item-role"><a href="https://github.com/BenevidesLuiz/Player-de-Musica">MusicPlayer — Desktop Media Player (github.com/BenevidesLuiz/Player-de-Musica)</a></span>
-        <span class="item-date">Java (JDK 25), Swing, JavaFX, yt-dlp, ffmpeg</span>
+        <span class="item-role">
+          <a href="https://github.com/BenevidesLuiz/Player-de-Musica">MusicPlayer — Desktop Media Player</a>
+          <a href="https://github.com/BenevidesLuiz/Player-de-Musica" class="item-link">(github.com/BenevidesLuiz/Player-de-Musica)</a>
+        </span>
+        <span class="item-tech">Java, Swing, JavaFX, yt-dlp, ffmpeg</span>
       </div>
       <ul class="bullet-list">
-        <li>Java desktop application combining Swing and JavaFX (<code>MediaPlayer</code>/<code>MediaView</code>) for <code>.mp3</code>/<code>.mp4</code> playback, integrating external CLI tools (<code>yt-dlp</code> and <code>ffmpeg</code>) for automated media download and format conversion.</li>
+        <li>Desktop audio and video player (<em>.mp3</em>/<em>.mp4</em>) integrated with external CLI tools (<em>yt-dlp</em> and <em>ffmpeg</em>) for automated media download and format conversion.</li>
       </ul>
     </div>
   </section>
@@ -269,7 +137,7 @@
       </div>
       <div class="item-company">Federal University of Mato Grosso do Sul (UFMS) — Pantanal Campus</div>
       <ul class="bullet-list">
-        <li><strong>Relevant Coursework:</strong> Databases (relational modeling, SQL with <code>INNER JOIN</code>, <code>GROUP BY</code>, <code>HAVING</code>, and index trade-off analysis), Object-Oriented Programming in Java (OOP), Systems Modeling (UML), and Web Programming (REST APIs).</li>
+        <li><strong>Relevant Coursework:</strong> Databases (relational modeling, SQL queries with <em>INNER JOIN</em>, <em>GROUP BY</em>, <em>HAVING</em>, and index analysis), Object-Oriented Programming in Java (OOP), Systems Modeling (UML), and Web Programming.</li>
       </ul>
     </div>
 
@@ -280,7 +148,7 @@
       </div>
       <div class="item-company">Federal Institute of Mato Grosso do Sul (IFMS) — Corumbá Campus</div>
       <ul class="bullet-list">
-        <li><strong>Capstone Thesis:</strong> <em>Blockchain: An Exploratory Study on Crypto Asset Digital Wallets</em> — technical analysis of elliptic-curve cryptography (<code>SECP256K1</code>), hash functions (<code>SHA-256</code>, <code>RIPEMD160</code>), and deterministic wallet standards (<code>BIP-32/38/39</code>).</li>
+        <li><strong>Capstone Thesis:</strong> <em>Blockchain: An Exploratory Study on Crypto Asset Digital Wallets</em> — technical study on elliptic-curve cryptography (SECP256K1), hash functions (SHA-256), and BIP-32/38/39 standards.</li>
       </ul>
     </div>
   </section>
@@ -288,8 +156,8 @@
   <section class="section">
     <h2 class="section-title">Languages &amp; Additional Training</h2>
     <ul class="bullet-list">
-      <li><strong>English:</strong> Golden 1 Level (Upper-Intermediate / B2) — CNA Language School (technical reading, writing, and conversation).</li>
-      <li><strong>Java Development:</strong> Complete Java Object-Oriented Programming + Projects (Udemy — Prof. Nélio Alves) and Java Swing for Desktop Applications.</li>
+      <li><strong>Languages:</strong> Portuguese (Native) • English: Upper-Intermediate (B2 — Golden 1 Level) — CNA Language School.</li>
+      <li><strong>Additional Training:</strong> Complete Java Object-Oriented Programming + Projects (Udemy — Prof. Nélio Alves) and Java Swing for Desktop Applications.</li>
     </ul>
   </section>
 

@@ -281,11 +281,11 @@
     const cvBtn = document.getElementById("download-cv-btn");
     if (cvBtn) {
       if (lang === "en") {
-        cvBtn.setAttribute("href", "assets/docs/Luiz_Benevides_CV_EN.pdf");
+        cvBtn.setAttribute("href", "assets/docs/Luiz_Benevides_CV_EN.pdf?v=3");
         cvBtn.setAttribute("download", "Luiz_Benevides_CV_EN.pdf");
         cvBtn.setAttribute("aria-label", "Open and download Resume in PDF (English)");
       } else {
-        cvBtn.setAttribute("href", "assets/docs/Luiz_Benevides_CV_PT.pdf");
+        cvBtn.setAttribute("href", "assets/docs/Luiz_Benevides_CV_PT.pdf?v=3");
         cvBtn.setAttribute("download", "Luiz_Benevides_CV_PT.pdf");
         cvBtn.setAttribute("aria-label", "Abrir e baixar Currículo em PDF (Português)");
       }

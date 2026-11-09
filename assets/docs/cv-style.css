@@ -1,0 +1,233 @@
+/* ==========================================================================
+   ESTILO COMPARTILHADO DE CURRÍCULO (PT-BR & EN) — ATS-FRIENDLY (A4 1 PÁGINA)
+   Identidade visual: Grafite escuro de alto contraste + Azul-marinho discreto
+   ========================================================================== */
+
+@page {
+  size: A4 portrait;
+  margin: 8.5mm 12.5mm;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text-strong: #0f172a;      /* Preto/grafite profundo para nomes, cargos e rótulos */
+  --text-body: #1e293b;        /* Grafite escuro de alto contraste para leitura nítida */
+  --text-meta: #334155;        /* Cinza-ardósia escuro para datas e locais (sem cinza lavado) */
+  --accent-navy: #1e3a5f;      /* Azul-marinho executivo discreto para títulos e destaques */
+  --border-header: #1e3a5f;    /* Linha principal do cabeçalho */
+  --border-section: #cbd5e1;   /* Separador discreto de seções */
+  --font-main: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+}
+
+html,
+body {
+  font-family: var(--font-main);
+  font-size: 8.9pt;
+  line-height: 1.33;
+  color: var(--text-body);
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+/* --------------------------------------------------------------------------
+   1. Cabeçalho Principal
+   -------------------------------------------------------------------------- */
+.header {
+  text-align: center;
+  border-bottom: 1.75pt solid var(--border-header);
+  padding-bottom: 5.5px;
+  margin-bottom: 8px;
+}
+
+.name {
+  font-size: 19pt;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--text-strong);
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.headline {
+  font-size: 9.9pt;
+  font-weight: 600;
+  color: var(--accent-navy);
+  margin-top: 2.5px;
+  letter-spacing: 0.01em;
+}
+
+.contact-line {
+  font-size: 8.45pt;
+  color: var(--text-body);
+  margin-top: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.contact-line a {
+  color: var(--text-strong);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-line a:hover {
+  color: var(--accent-navy);
+  text-decoration: underline;
+}
+
+.separator {
+  color: var(--accent-navy);
+  font-weight: 700;
+}
+
+/* --------------------------------------------------------------------------
+   2. Seções e Títulos
+   -------------------------------------------------------------------------- */
+.section {
+  margin-bottom: 7.5px;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.section-title {
+  font-size: 9.4pt;
+  font-weight: 700;
+  color: var(--accent-navy);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-bottom: 0.85pt solid var(--border-section);
+  padding-bottom: 2px;
+  margin-bottom: 4.5px;
+}
+
+.summary-text {
+  font-size: 8.85pt;
+  color: var(--text-body);
+  line-height: 1.35;
+  text-align: left;
+}
+
+/* --------------------------------------------------------------------------
+   3. Habilidades Técnicas (Categorias Limpas para ATS)
+   -------------------------------------------------------------------------- */
+.skills-block {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5px;
+  font-size: 8.75pt;
+}
+
+.skill-row {
+  display: flex;
+  align-items: baseline;
+  line-height: 1.3;
+}
+
+.skill-label {
+  font-weight: 700;
+  color: var(--text-strong);
+  min-width: 170px;
+  flex-shrink: 0;
+}
+
+.skill-values {
+  color: var(--text-body);
+}
+
+/* --------------------------------------------------------------------------
+   4. Experiência, Projetos e Formação
+   -------------------------------------------------------------------------- */
+.item {
+  margin-bottom: 5.5px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.item-role {
+  font-size: 9.15pt;
+  font-weight: 700;
+  color: var(--text-strong);
+}
+
+.item-role a {
+  color: var(--text-strong);
+  text-decoration: none;
+}
+
+.item-link {
+  font-size: 8.15pt;
+  font-weight: 500;
+  color: var(--accent-navy);
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+.item-date {
+  font-size: 8.35pt;
+  color: var(--text-meta);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.item-tech {
+  font-size: 8.25pt;
+  color: var(--accent-navy);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.item-company {
+  font-size: 8.6pt;
+  color: var(--accent-navy);
+  font-weight: 600;
+  margin-top: 0.5px;
+  margin-bottom: 1.5px;
+}
+
+/* --------------------------------------------------------------------------
+   5. Listas de Tópicos (Bullets)
+   -------------------------------------------------------------------------- */
+ul.bullet-list {
+  padding-left: 14px;
+  margin-top: 1.5px;
+}
+
+ul.bullet-list li {
+  font-size: 8.7pt;
+  color: var(--text-body);
+  margin-bottom: 1.5px;
+  line-height: 1.32;
+}
+
+ul.bullet-list li:last-child {
+  margin-bottom: 0;
+}
+
+ul.bullet-list li strong {
+  color: var(--text-strong);
+  font-weight: 700;
+}
