@@ -139,13 +139,12 @@
          ----------------------------------------------------------------------- -->
     <section id="sobre" class="section section-divider">
       <div class="container">
-        <header class="section-header">
-          <span class="section-tag" data-i18n="aboutTag">Sobre mim</span>
-          <h2 class="section-title" data-i18n="aboutTitle">Trajetória e foco profissional</h2>
-        </header>
-
         <div class="about-grid">
           <div class="about-text">
+            <header class="section-header about-header">
+              <span class="section-tag" data-i18n="aboutTag">Sobre mim</span>
+              <h2 class="section-title" data-i18n="aboutTitle">Trajetória e foco profissional</h2>
+            </header>
             <p data-i18n="aboutP1">
               Sou estudante de Sistemas de Informação na Universidade Federal de Mato Grosso do Sul (UFMS), com formação técnica em Informática pelo Instituto Federal de Mato Grosso do Sul (IFMS).
             </p>
@@ -184,50 +183,16 @@
     </section>
 
     <!-- -----------------------------------------------------------------------
-         3. Seção Habilidades Técnicas (Com Ícones em Cada Tecnologia)
+         3. Seção Habilidades Técnicas (Compacta e Equilibrada)
          ----------------------------------------------------------------------- -->
     <section id="habilidades" class="section section-divider">
       <div class="container">
-        <header class="section-header">
+        <header class="section-header skills-header">
           <span class="section-tag" data-i18n="skillsTag">Conhecimentos</span>
           <h2 class="section-title" data-i18n="skillsTitle">Habilidades Técnicas</h2>
-          <p class="section-desc" data-i18n="skillsDesc">
-            Apresentação honesta das tecnologias com as quais possuo estudo e experiência prática, sem métricas arbitrárias.
-          </p>
         </header>
 
         <div class="skills-grid">
-          <!-- Estudando atualmente (atualizar conforme a especialização avança) -->
-          <article class="skill-category-card skill-category-learning">
-            <h3 class="skill-category-title" data-i18n="skillsCatLearning">Estudando Atualmente</h3>
-            <ul class="skill-badges">
-              <li class="skill-badge">
-                <img src="assets/icons/database.svg" alt="" class="skill-icon" aria-hidden="true">
-                <span>SQL</span>
-              </li>
-              <li class="skill-badge">
-                <img src="assets/icons/code.svg" alt="" class="skill-icon" aria-hidden="true">
-                <span data-i18n="skillAI">Inteligência Artificial</span>
-              </li>
-              <li class="skill-badge">
-                <img src="assets/icons/java.svg" alt="" class="skill-icon" aria-hidden="true">
-                <span>Java</span>
-              </li>
-              <li class="skill-badge">
-                <img src="assets/icons/javascript.svg" alt="" class="skill-icon" aria-hidden="true">
-                <span>JavaScript</span>
-              </li>
-              <li class="skill-badge">
-                <img src="assets/icons/code.svg" alt="" class="skill-icon" aria-hidden="true">
-                <span>Python</span>
-              </li>
-              <li class="skill-badge">
-                <img src="assets/icons/gamepad.svg" alt="" class="skill-icon" aria-hidden="true">
-                <span>GDScript (Godot)</span>
-              </li>
-            </ul>
-          </article>
-
           <!-- Linguagens -->
           <article class="skill-category-card">
             <h3 class="skill-category-title" data-i18n="skillsCatLanguages">Linguagens</h3>
@@ -264,23 +229,12 @@
                 <span>MySQL</span>
               </li>
               <li class="skill-badge">
+                <img src="assets/icons/mariadb.svg" alt="" class="skill-icon" aria-hidden="true">
+                <span>MariaDB</span>
+              </li>
+              <li class="skill-badge">
                 <img src="assets/icons/sqlite.svg" alt="" class="skill-icon" aria-hidden="true">
                 <span>SQLite</span>
-              </li>
-            </ul>
-          </article>
-
-          <!-- Ferramentas & Versionamento -->
-          <article class="skill-category-card">
-            <h3 class="skill-category-title" data-i18n="skillsCatTools">Ferramentas &amp; Versionamento</h3>
-            <ul class="skill-badges">
-              <li class="skill-badge">
-                <img src="assets/icons/git.svg" alt="" class="skill-icon" aria-hidden="true">
-                <span>Git</span>
-              </li>
-              <li class="skill-badge">
-                <img src="assets/icons/github.svg" alt="" class="skill-icon" aria-hidden="true">
-                <span>GitHub</span>
               </li>
             </ul>
           </article>
@@ -294,31 +248,51 @@
                 <span>Unity</span>
               </li>
               <li class="skill-badge">
-                <img src="assets/icons/gamemaker.svg" alt="" class="skill-icon" aria-hidden="true">
-                <span>GameMaker</span>
-              </li>
-              <li class="skill-badge">
                 <img src="assets/icons/gamepad.svg" alt="" class="skill-icon" aria-hidden="true">
                 <span>Godot</span>
+              </li>
+              <li class="skill-badge">
+                <img src="assets/icons/gamemaker.svg" alt="" class="skill-icon" aria-hidden="true">
+                <span>GameMaker</span>
               </li>
             </ul>
           </article>
 
-          <!-- Tecnologias Adicionais -->
+          <!-- Tecnologias & Versionamento -->
           <article class="skill-category-card">
-            <h3 class="skill-category-title" data-i18n="skillsCatAdditional">Tecnologias Adicionais</h3>
+            <h3 class="skill-category-title" data-i18n="skillsCatAdditional">Tecnologias &amp; Versionamento</h3>
             <ul class="skill-badges">
+              <li class="skill-badge">
+                <img src="assets/icons/git.svg" alt="" class="skill-icon" aria-hidden="true">
+                <span>Git</span>
+              </li>
+              <li class="skill-badge">
+                <img src="assets/icons/github.svg" alt="" class="skill-icon" aria-hidden="true">
+                <span>GitHub</span>
+              </li>
               <li class="skill-badge">
                 <img src="assets/icons/laravel.svg" alt="" class="skill-icon" aria-hidden="true">
                 <span>Laravel</span>
+              </li>
+              <li class="skill-badge">
+                <img src="assets/icons/flutter.svg" alt="" class="skill-icon" aria-hidden="true">
+                <span>Flutter</span>
               </li>
             </ul>
           </article>
         </div>
 
-        <p class="skills-note" data-i18n="skillsNote">
-          • Tecnologias com experiência prática documentada ou projetos desenvolvidos.
-        </p>
+        <!-- Barra compacta "Estudando Atualmente" -->
+        <div class="learning-strip">
+          <span class="learning-strip-label" data-i18n="skillsCatLearning">Estudando atualmente:</span>
+          <ul class="learning-strip-tags">
+            <li class="learning-pill">SQL</li>
+            <li class="learning-pill" data-i18n="skillAI">Inteligência Artificial</li>
+            <li class="learning-pill">Java</li>
+            <li class="learning-pill">JavaScript</li>
+            <li class="learning-pill">GDScript</li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -624,7 +598,7 @@
             </div>
             <p class="edu-institution" data-i18n="eduTecInstitution">Instituto Federal de Mato Grosso do Sul (IFMS)</p>
             <p class="edu-desc" data-i18n="eduTecDesc">
-              Formação técnica profissionalizante com foco em lógica de programação, fundamentos de hardware, desenvolvimento web e suporte computacional.
+              Formação técnica profissionalizante onde aprendi do básico ao avançado em lógica de programação, redes, hardware e desenvolvimento, base que me motivou a seguir na área e ingressar na Universidade Federal (UFMS).
             </p>
 
             <!-- TCC em Destaque no IFMS -->
@@ -653,92 +627,88 @@
         <ul class="courses-list">
           <!-- Inglês CNA -->
           <li class="course-item">
-            <div>
+            <div class="course-item-top">
               <p class="course-name" data-i18n="courseEnglishName">Inglês — CNA (Nível Golden 1)</p>
-              <p class="course-desc" data-i18n="courseEnglishDesc">Formação em idioma inglês na escola CNA, atualmente no nível Golden 1 (Intermediário-Avançado / B2), focado em conversação, escrita e leitura técnica.</p>
+              <span class="course-provider">CNA Idiomas</span>
             </div>
-            <span class="course-provider">CNA Idiomas</span>
+            <p class="course-desc" data-i18n="courseEnglishDesc">Formação em idioma inglês na escola CNA, atualmente no nível Golden 1 (Intermediário-Avançado / B2), focado em conversação, escrita e leitura técnica.</p>
           </li>
 
           <!-- Java Completo POO Nelio Alves -->
           <li class="course-item">
-            <div>
+            <div class="course-item-top">
               <p class="course-name" data-i18n="courseJavaName">Java COMPLETO — Programação Orientada a Objetos</p>
-              <p class="course-desc" data-i18n="courseJavaDesc">Aprofundamento em fundamentos de Java, encapsulamento, herança, polimorfismo, interfaces e tratamento de exceções, cursado em paralelo com a disciplina de LPOO na faculdade.</p>
+              <span class="course-provider">Udemy • Prof. Nelio Alves</span>
             </div>
-            <span class="course-provider">Udemy • Prof. Nelio Alves</span>
+            <p class="course-desc" data-i18n="courseJavaDesc">Aprofundamento em fundamentos de Java, encapsulamento, herança, polimorfismo, interfaces e tratamento de exceções, cursado em paralelo com a disciplina de LPOO na faculdade.</p>
           </li>
 
           <!-- Java Swing Desktop -->
           <li class="course-item">
-            <div>
-              <p class="course-name" data-i18n="courseSwingName">Java Swing — Desenvolvimento de Aplicações Desktop</p>
-              <p class="course-desc" data-i18n="courseSwingDesc">Estudo e prática de componentes gráficos, personalização de botões e tabelas, layouts dinâmicos e controle de eventos em interfaces desktop (aplicado no sistema da Clínica da UFMS e no MusicPlayer).</p>
+            <div class="course-item-top">
+              <p class="course-name" data-i18n="courseSwingName">Java Swing — Aplicações Desktop</p>
+              <span class="course-provider">YouTube • Prático</span>
             </div>
-            <span class="course-provider">YouTube / Desenvolvimento Prático</span>
+            <p class="course-desc" data-i18n="courseSwingDesc">Estudo e prática de componentes gráficos, personalização de botões e tabelas, layouts dinâmicos e controle de eventos (aplicado no sistema da Clínica da UFMS e no MusicPlayer).</p>
           </li>
 
           <!-- Formação Blockchain -->
           <li class="course-item">
-            <div>
+            <div class="course-item-top">
               <p class="course-name" data-i18n="courseBlockchainName">Formação Engenheiro de Blockchain</p>
-              <p class="course-desc" data-i18n="courseBlockchainDesc">Estudo técnico sobre redes descentralizadas, transações, contratos inteligentes e arquitetura de carteiras criptográficas, cursado como embasamento para a pesquisa do TCC no IFMS.</p>
+              <span class="course-provider">Udemy</span>
             </div>
-            <span class="course-provider">Udemy</span>
+            <p class="course-desc" data-i18n="courseBlockchainDesc">Estudo técnico sobre redes descentralizadas, transações, contratos inteligentes e arquitetura de carteiras criptográficas, cursado como embasamento para a pesquisa do TCC no IFMS.</p>
           </li>
 
           <!-- Jogos 2D GameMaker & GDevelop -->
           <li class="course-item">
-            <div>
-              <p class="course-name" data-i18n="course2dName">Desenvolvimento de Jogos 2D com GameMaker e GDevelop</p>
-              <p class="course-desc" data-i18n="course2dDesc">Fundamentos de lógica de jogos 2D, colisões, física, máquinas de estados e progressão de fases (base prática para projetos como o Super-Arkanoid).</p>
+            <div class="course-item-top">
+              <p class="course-name" data-i18n="course2dName">Desenvolvimento de Jogos 2D (GameMaker &amp; GDevelop)</p>
+              <span class="course-provider">Udemy</span>
             </div>
-            <span class="course-provider">Udemy</span>
+            <p class="course-desc" data-i18n="course2dDesc">Fundamentos de lógica de jogos 2D, colisões, física, máquinas de estados e progressão de fases (base prática para projetos como o Super-Arkanoid).</p>
           </li>
 
           <!-- Python do Básico ao Avançado -->
           <li class="course-item">
-            <div>
+            <div class="course-item-top">
               <p class="course-name" data-i18n="coursePythonName">Python do Básico ao Avançado</p>
-              <p class="course-desc" data-i18n="coursePythonDesc">Estudo de lógica de programação, sintaxe moderna, funções e estruturas de dados em Python, base complementar para scripting e GDScript.</p>
+              <span class="course-provider">Udemy</span>
             </div>
-            <span class="course-provider">Udemy</span>
+            <p class="course-desc" data-i18n="coursePythonDesc">Estudo de lógica de programação, sintaxe moderna, funções e estruturas de dados em Python, base complementar para scripting e GDScript.</p>
           </li>
         </ul>
       </div>
     </section>
 
     <!-- -----------------------------------------------------------------------
-         7. Seção Contato (Links Rápidos e Diretos)
+         7. Fechamento Compacto de Contato (Barra Direta)
          ----------------------------------------------------------------------- -->
-    <section id="contato" class="section section-divider">
+    <section id="contato" class="contact-cta-section section-divider">
       <div class="container">
-        <div class="contact-section-inner">
-          <header class="section-header" style="margin-bottom: 1.5rem;">
-            <span class="section-tag" data-i18n="contactTag">Contato</span>
-            <h2 class="section-title" data-i18n="contactTitle">Vamos Conversar</h2>
-            <p class="section-desc" data-i18n="contactDesc">
-              Aberto a oportunidades de estágio e início de carreira na área de tecnologia (remoto).
+        <div class="contact-cta-bar">
+          <div class="contact-cta-text">
+            <h2 class="contact-cta-title" data-i18n="contactTitle">Aberto a oportunidades de estágio</h2>
+            <p class="contact-cta-desc" data-i18n="contactDesc">
+              Disponível para atuar remotamente em desenvolvimento de software e engenharia back-end.
             </p>
-          </header>
+          </div>
 
           <div class="contact-direct-links">
-            <!-- E-mail Direto (Link rápido mailto, exatamente como GitHub e LinkedIn) -->
             <a href="mailto:luixbenevides@gmail.com" class="contact-direct-link" aria-label="Enviar e-mail para luixbenevides@gmail.com">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
               <span>luixbenevides@gmail.com</span>
             </a>
 
-            <!-- GitHub Direto -->
-            <a href="https://github.com/BenevidesLuiz" target="_blank" rel="noopener noreferrer" class="contact-direct-link" aria-label="Perfil do GitHub de Luiz Benevides">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
-              <span>GitHub / BenevidesLuiz</span>
-            </a>
-
-            <!-- LinkedIn Direto -->
             <a href="https://www.linkedin.com/in/luiz-felipe-quevedo-benevides-a26a342bb/" target="_blank" rel="noopener noreferrer" class="contact-direct-link" aria-label="Perfil do LinkedIn de Luiz Benevides">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
               <span>LinkedIn</span>
+            </a>
+
+            <a href="https://github.com/BenevidesLuiz" target="_blank" rel="noopener noreferrer" class="contact-direct-link" aria-label="Perfil do GitHub de Luiz Benevides">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+              <span>GitHub</span>
             </a>
           </div>
         </div>
